@@ -1,0 +1,15 @@
+[
+  { "tree": "beith",  "baslangicAy": 12, "baslangicGun": 24, "bitisAy": 1,  "bitisGun": 21 },
+  { "tree": "luis",   "baslangicAy": 1,  "baslangicGun": 21, "bitisAy": 2,  "bitisGun": 18 },
+  { "tree": "nion",   "baslangicAy": 2,  "baslangicGun": 18, "bitisAy": 3,  "bitisGun": 18 },
+  { "tree": "fearn",  "baslangicAy": 3,  "baslangicGun": 18, "bitisAy": 4,  "bitisGun": 15 },
+  { "tree": "sail",   "baslangicAy": 4,  "baslangicGun": 15, "bitisAy": 5,  "bitisGun": 13 },
+  { "tree": "huath",  "baslangicAy": 5,  "baslangicGun": 13, "bitisAy": 6,  "bitisGun": 10 },
+  { "tree": "duir",   "baslangicAy": 6,  "baslangicGun": 10, "bitisAy": 7,  "bitisGun": 8  },
+  { "tree": "tinne",  "baslangicAy": 7,  "baslangicGun": 8,  "bitisAy": 8,  "bitisGun": 5  },
+  { "tree": "coll",   "baslangicAy": 8,  "baslangicGun": 5,  "bitisAy": 9,  "bitisGun": 2  },
+  { "tree": "muin",   "baslangicAy": 9,  "baslangicGun": 2,  "bitisAy": 9,  "bitisGun": 30 },
+  { "tree": "gort",   "baslangicAy": 9,  "baslangicGun": 30, "bitisAy": 10, "bitisGun": 28 },
+  { "tree": "ngetal", "baslangicAy": 10, "baslangicGun": 28, "bitisAy": 11, "bitisGun": 25 },
+  { "tree": "ruis",   "baslangicAy": 11, "baslangicGun": 25, "bitisAy": 12, "bitisGun": 24 }
+]

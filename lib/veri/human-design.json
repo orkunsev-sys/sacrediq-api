@@ -1,0 +1,116 @@
+{
+  "tipler": [
+    {
+      "no": 1,
+      "tip": "Manifestor",
+      "isim_tr": "Manifestor",
+      "nufus": "%9",
+      "strateji": "Bildirmek",
+      "imza": "Huzur",
+      "olmayan": "Sinirlilik",
+      "aciklama": "Dünyanın geri kalanını etkileme gücüne sahip, kendi başına eylem başlatabilir. Diğerlerini bilgilendirmesi uyum ve işbirliği sağlar."
+    },
+    {
+      "no": 2,
+      "tip": "Generator",
+      "isim_tr": "Jeneratör",
+      "nufus": "%36",
+      "strateji": "Yanıt vermek",
+      "imza": "Tatmin",
+      "olmayan": "Hayal kırıklığı",
+      "aciklama": "Hayatın motoru. Doğru şeye tepki verdiğinde enerjisi tükenmez. Kendi inisiyatifiyle başlatmak yerine yanıt vermeyi bekler."
+    },
+    {
+      "no": 3,
+      "tip": "Manifesting Generator",
+      "isim_tr": "Manifeste Eden Jeneratör",
+      "nufus": "%33",
+      "strateji": "Yanıt vermek ve bildirmek",
+      "imza": "Tatmin ve huzur",
+      "olmayan": "Hayal kırıklığı ve sinirlilik",
+      "aciklama": "Jeneratör ve Manifestor özelliklerini taşır. Hızlı hareket eder, çoklu tutkulara sahiptir. Yanıt vermeli ve ardından bildirmelidir."
+    },
+    {
+      "no": 4,
+      "tip": "Projector",
+      "isim_tr": "Projektör",
+      "nufus": "%20",
+      "strateji": "Davet beklemek",
+      "imza": "Başarı",
+      "olmayan": "Acılık",
+      "aciklama": "Başkalarını yönlendirme ve rehberlik etme yeteneğine sahip. Davet geldiğinde enerjisi büyür. Kendiliğinden harekete geçmemelidir."
+    },
+    {
+      "no": 5,
+      "tip": "Reflector",
+      "isim_tr": "Yansıtıcı",
+      "nufus": "%1",
+      "strateji": "Bir ay beklemek",
+      "imza": "Şaşkınlık",
+      "olmayan": "Hayal kırıklığı",
+      "aciklama": "Ay döngüsüyle çalışır. Toplumu ve çevresini yansıtır. Büyük kararlar için bir ay ayı döngüsünü bekler."
+    }
+  ],
+  "profiller": [
+    {
+      "no": "1/3",
+      "isim": "Araştırmacı / Şehit",
+      "aciklama": "Deneme yanılma yoluyla öğrenir, deneyimle temeli güçlenir."
+    },
+    {
+      "no": "1/4",
+      "isim": "Araştırmacı / Fırsatçı",
+      "aciklama": "Güçlü bir temelle ağını kullanır."
+    },
+    {
+      "no": "2/4",
+      "isim": "Münzevi / Fırsatçı",
+      "aciklama": "Yalnız çalışır ama ilişkileri üzerinden etkisi yayılır."
+    },
+    {
+      "no": "2/5",
+      "isim": "Münzevi / Heretic",
+      "aciklama": "Kendi dünyasında keşfeder, dışarıdan pratik çözüm beklenir."
+    },
+    {
+      "no": "3/5",
+      "isim": "Şehit / Heretic",
+      "aciklama": "Deneyimleriyle öğrenir ve bu bilgeliği başkalarına sunar."
+    },
+    {
+      "no": "3/6",
+      "isim": "Şehit / Rol Model",
+      "aciklama": "İlk yarısında dener, sonrasında bilge rol model olur."
+    },
+    {
+      "no": "4/6",
+      "isim": "Fırsatçı / Rol Model",
+      "aciklama": "İlişki ağıyla topluma örnek olur."
+    },
+    {
+      "no": "4/1",
+      "isim": "Fırsatçı / Araştırmacı",
+      "aciklama": "Güçlü temelle güçlü ağ kurar."
+    },
+    {
+      "no": "5/1",
+      "isim": "Heretic / Araştırmacı",
+      "aciklama": "Evrensel çözümler sunar, sağlam temele ihtiyaç duyar."
+    },
+    {
+      "no": "5/2",
+      "isim": "Heretic / Münzevi",
+      "aciklama": "Pratik çözümler sunar ama dinlenmeye de ihtiyaç duyar."
+    },
+    {
+      "no": "6/2",
+      "isim": "Rol Model / Münzevi",
+      "aciklama": "Üç aşamada olgunlaşır; son dönemde rol model haline gelir."
+    },
+    {
+      "no": "6/3",
+      "isim": "Rol Model / Şehit",
+      "aciklama": "Deneyimle öğrenir ve kılavuz rol model olur."
+    }
+  ]
+}

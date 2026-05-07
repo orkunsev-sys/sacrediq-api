@@ -1,0 +1,69 @@
+{
+  "yedi_ilke": [
+    {
+      "no": 1,
+      "isim": "Zihinsellik İlkesi",
+      "isim_en": "The Principle of Mentalism",
+      "ozet": "Her şey Zihin'dir. Evren zihinseldir.",
+      "aciklama": "Sonsuz Varlık, Tanrı veya Evrensel Zihin, tüm gerçekliğin temelidir. Herşey zihinsel yaratımdır ve bilinç tüm oluşun özüdür.",
+      "zumrut_baglantisi": "Yukarıdaki gibi aşağıda, aşağıdaki gibi yukarıda."
+    },
+    {
+      "no": 2,
+      "isim": "Uygunluk İlkesi",
+      "isim_en": "The Principle of Correspondence",
+      "ozet": "Yukarıda ne ise aşağıda da odur, aşağıda ne ise yukarıda da odur.",
+      "aciklama": "Makrokozmos ile mikrokozmos arasındaki uyum. Evrenin tüm düzlemleri birbirini yansıtır.",
+      "zumrut_baglantisi": "Zümrüt Tablet'in temel yasası."
+    },
+    {
+      "no": 3,
+      "isim": "Titreşim İlkesi",
+      "isim_en": "The Principle of Vibration",
+      "ozet": "Hiçbir şey hareketsiz değildir; her şey titreşir.",
+      "aciklama": "Madde, enerji, zihin ve ruh; hepsi belirli frekanslarda titreşir. Yüksek titreşim ruhsallığa, düşük titreşim maddiyata karşılık gelir.",
+      "zumrut_baglantisi": "Solfeggio frekansları ile bağlantılı."
+    },
+    {
+      "no": 4,
+      "isim": "Kutupsallık İlkesi",
+      "isim_en": "The Principle of Polarity",
+      "ozet": "Her şeyin zıt kutbu vardır; zıtlıklar özdeştir.",
+      "aciklama": "Sıcak ve soğuk, ışık ve karanlık, aşk ve nefret aynı şeyin dereceleridir. Her şey ikili doğaya sahiptir.",
+      "zumrut_baglantisi": "Yin-Yang dengesi."
+    },
+    {
+      "no": 5,
+      "isim": "Ritim İlkesi",
+      "isim_en": "The Principle of Rhythm",
+      "ozet": "Her şey akıp taşar; her şeyin med ve cezhirı vardır.",
+      "aciklama": "Evrendeki her şey döngüler halinde hareket eder. Gelişim ve gerileme, yükseliş ve düşüş ritmik yasalara tabidir.",
+      "zumrut_baglantisi": "Ay döngüleri, mevsimler, nefes."
+    },
+    {
+      "no": 6,
+      "isim": "Neden-Sonuç İlkesi",
+      "isim_en": "The Principle of Cause and Effect",
+      "ozet": "Her neden bir sonuçtur; her sonucun bir nedeni vardır.",
+      "aciklama": "Rastlantı yoktur; her şey yasaya göre işler. Karma bu ilkenin tezahürüdür.",
+      "zumrut_baglantisi": "Karma ve kader anlayışının temeli."
+    },
+    {
+      "no": 7,
+      "isim": "Cinsiyet İlkesi",
+      "isim_en": "The Principle of Gender",
+      "ozet": "Her şeyde cinsiyet vardır; cinsiyet her şeyde mevcuttur.",
+      "aciklama": "Eril ve dişil ilkeler her düzlemde çalışır. Yaratıcılık bu iki ilkenin bir araya gelmesinden doğar.",
+      "zumrut_baglantisi": "Yin-Yang, anima-animus."
+    }
+  ],
+  "zumrut_tablet_ozet": "True it is, without falsehood, certain and most true. That which is above is like to that which is below, and that which is below is like to that which is above, to accomplish the miracles of one thing.",
+  "temel_kavramlar": [
+    "Kybalion",
+    "Thoth/Hermes Trismegistus",
+    "Alchemy",
+    "Nous",
+    "Logos",
+    "Pneuma"
+  ]
+}

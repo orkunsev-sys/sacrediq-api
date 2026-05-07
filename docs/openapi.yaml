@@ -1,0 +1,810 @@
+openapi: 3.1.0
+info:
+  title: Kadim Hesap API
+  version: 1.0.0
+  description: |
+    Ebced, Numeroloji, Rune, BaZi, Nakshatra, Ay Menzili, I Ching ve Kabbalah
+    hesaplama motorlarını dışarıya sunan RESTful API marketplace.
+
+    **Başlamak için:**
+    1. `POST /api/auth/register` ile ücretsiz API key alın
+    2. Her istekte `x-api-key` header'ını ekleyin
+    3. Yanıtlar `{ success, data, meta }` formatındadır
+
+    **Tier Limitleri:**
+    | Tier       | RPM  | RPH   | RPD     | Fiyat    |
+    |------------|------|-------|---------|----------|
+    | free       | 10   | 100   | 500     | Ücretsiz |
+    | starter    | 60   | 1000  | 10.000  | $19/ay   |
+    | pro        | 300  | 5000  | 100.000 | $99/ay   |
+    | enterprise | 1000 | 20000 | Sınırsız| Özel     |
+  contact:
+    name: Kadim Hesap
+    url: https://kadim-hesap.vercel.app
+    email: orkunsev@gmail.com
+  license:
+    name: Proprietary
+
+servers:
+  - url: https://kadim-api.vercel.app
+    description: Production
+  - url: http://localhost:3000
+    description: Lokal Geliştirme (vercel dev)
+
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: x-api-key
+      description: |
+        Format: `kh_{tier}_{random}`
+        Örnekler:
+        - `kh_free_abcdefgh12345678`
+        - `kh_starter_abcdefgh12345678`
+        - `kh_pro_abcdefgh12345678`
+        - `kh_ent_abcdefgh12345678`
+        Yeni key: `POST /api/auth/register`
+
+  schemas:
+    Meta:
+      type: object
+      description: Her yanıta eklenen metadata
+      properties:
+        sistem:
+          type: string
+          description: Kullanılan hesaplama sistemi
+          example: ebced
+        versiyon:
+          type: string
+          example: "1.0"
+        kredi:
+          type: integer
+          description: Bu istek için harcanan kredi
+          example: 1
+        kalan:
+          type: integer
+          nullable: true
+          description: "Bugün kalan istek hakkı (enterprise: null)"
+          example: 499
+        limit:
+          type: integer
+          nullable: true
+          description: Günlük istek limiti
+          example: 500
+        tier:
+          type: string
+          enum: [free, starter, pro, enterprise]
+          example: free
+
+    Error:
+      type: object
+      properties:
+        success:
+          type: boolean
+          enum: [false]
+        error:
+          type: object
+          properties:
+            code:
+              type: string
+              example: MISSING_PARAM
+            message:
+              type: string
+              example: "metin parametresi gerekli."
+
+    EbcedResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          enum: [true]
+        data:
+          type: object
+          properties:
+            toplam:
+              type: integer
+              description: Kebir sistemine göre toplam ebced değeri
+              example: 786
+            detaylar:
+              type: array
+              description: Her harf için hesaplama detayı
+              items:
+                type: object
+                properties:
+                  harf:      { type: string }
+                  arapcaHarf:{ type: string }
+                  ebcedHarf: { type: string }
+                  deger:     { type: integer }
+            sistemler:
+              type: object
+              properties:
+                kebir:  { type: object }
+                sagir:  { type: object }
+                vusta:  { type: object }
+                ahar:   { type: object }
+                vefk:   { type: object, nullable: true }
+        meta:
+          $ref: '#/components/schemas/Meta'
+
+    NakshatraResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          enum: [true]
+        data:
+          type: object
+          properties:
+            isim:       { type: string, example: "Rohini" }
+            lord:       { type: string, example: "Ay" }
+            element:    { type: string, example: "Toprak" }
+            pada:       { type: integer, minimum: 1, maximum: 4 }
+            posYuzde:   { type: number, example: 65.3 }
+            siderealLon:{ type: number, example: 43.7862 }
+        meta:
+          $ref: '#/components/schemas/Meta'
+
+    BaZiResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          enum: [true]
+        data:
+          type: object
+          properties:
+            sutunlar:
+              type: array
+              description: "4 pillar: Yıl, Ay, Gün, Saat"
+              items:
+                type: object
+                properties:
+                  ad:    { type: string, example: "Yıl" }
+                  stem:  { type: object, description: "Göksel Gövde" }
+                  branch:{ type: object, description: "Yer Yüzü Dalı" }
+            elementSayim:
+              type: object
+              description: "Her elementin pillar'lardaki adedi"
+            dominant:
+              type: string
+              example: "Ateş"
+            eksik:
+              type: array
+              items: { type: string }
+            daymaster:
+              type: object
+              description: "Gün sütunu göksel gövdesi — kişinin temel enerjisi"
+            ozet:
+              type: string
+        meta:
+          $ref: '#/components/schemas/Meta'
+
+security:
+  - ApiKeyAuth: []
+
+paths:
+  /api/v1/ebced:
+    post:
+      summary: Ebced Hesaplama
+      description: |
+        Metni 4 farklı ebced sistemine göre hesaplar:
+        - **Kebir**: Klasik büyük ebced (ا=1, ب=2, ...)
+        - **Sagir**: Küçük ebced (sayılar 1-9'a indirgenir)
+        - **Vusta**: Orta ebced
+        - **Ahar**: Son ebced
+        - **Vefk**: Toplama göre otomatik boyutlu vefk büyüsü
+
+        Ayrıca Esma eşleşmesi (tam + en yakın) döner.
+      operationId: ebcedHesapla
+      tags: [Hesaplama]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [metin]
+              properties:
+                metin:
+                  type: string
+                  maxLength: 500
+                  example: "Bismillah"
+                  description: Hesaplanacak metin (Türkçe ve Arapça karakterler desteklenir)
+            examples:
+              turkce:
+                summary: Türkçe isim
+                value: { metin: "Orkun Sevinc" }
+              arapca:
+                summary: Arapça dua
+                value: { metin: "Bismillah" }
+      responses:
+        "200":
+          description: Ebced hesaplama sonucu
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EbcedResponse'
+        "400":
+          description: Geçersiz parametre
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "401":
+          description: Geçersiz veya eksik API key
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "429":
+          description: Rate limit aşıldı
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /api/v1/numeroloji:
+    post:
+      summary: Numeroloji Hesaplama
+      description: |
+        4 numeroloji sistemi ile kapsamlı analiz:
+        - **Pisagor**: İfade, Ruh, Kişilik sayıları
+        - **Kaldean**: Antik Babil sistemi
+        - **Gematria**: İbranice harf-sayı sistemi
+        - **Tantrik**: Hint mistik numerolojisi + doğum tarihi entegrasyonu
+      operationId: numerolojiHesapla
+      tags: [Hesaplama]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [metin]
+              properties:
+                metin:
+                  type: string
+                  example: "Ahmet Yilmaz"
+                dogumTarihi:
+                  type: string
+                  pattern: '^\d{4}-\d{2}-\d{2}$'
+                  example: "1990-05-15"
+                  description: Doğum tarihi (Tantrik sistem için gerekli)
+      responses:
+        "200":
+          description: Numeroloji profili
+        "400":
+          description: Geçersiz parametre
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "401":
+          description: Yetkisiz
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "429":
+          description: Rate limit
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /api/v1/rune:
+    post:
+      summary: Rune Analizi
+      description: |
+        Her harfi Elder Futhark rune sistemine dönüştürür.
+        Zengin veri seti ile döner:
+        - Rune sembolü, adı ve klasik anlamı
+        - Element ve Chakra eşleşmesi
+        - Kuzey mitolojisindeki tanrı ilişkisi
+        - Psikolojik, mistik ve gölge anlamlar
+        - Kristal ve bitki önerileri
+      operationId: runeHesapla
+      tags: [Hesaplama]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [metin]
+              properties:
+                metin:
+                  type: string
+                  example: "Orkun"
+      responses:
+        "200":
+          description: Rune analizi
+        "400":
+          description: Geçersiz parametre
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "401":
+          description: Yetkisiz
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "429":
+          description: Rate limit
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /api/v1/nakshatra:
+    post:
+      summary: Nakshatra Hesaplama
+      description: |
+        Vedik astroloji — Ay'ın hangi Nakshatra'da olduğunu hesaplar.
+        - Lahiri Ayanamsha (sidereal düzeltme)
+        - 27 Nakshatra içinden eşleştirme
+        - Pada (çeyrek), pozisyon yüzdesi
+        - Lord gezegen, element, mitolojik anlam
+      operationId: nakshatraHesapla
+      tags: [Hesaplama]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [yil, ay, gun]
+              properties:
+                yil:
+                  type: integer
+                  example: 1990
+                ay:
+                  type: integer
+                  minimum: 1
+                  maximum: 12
+                  example: 5
+                gun:
+                  type: integer
+                  minimum: 1
+                  maximum: 31
+                  example: 15
+                saat:
+                  type: integer
+                  minimum: 0
+                  maximum: 23
+                  default: 12
+                  example: 14
+                dakika:
+                  type: integer
+                  minimum: 0
+                  maximum: 59
+                  default: 0
+                  example: 30
+      responses:
+        "200":
+          description: Nakshatra sonucu
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NakshatraResponse'
+        "400":
+          description: Geçersiz parametre
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "401":
+          description: Yetkisiz
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "429":
+          description: Rate limit
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /api/v1/bazi:
+    post:
+      summary: BaZi (Sekiz Hane) Haritası
+      description: |
+        Çin metafiziği BaZi — 4 Pillar astrolojisi:
+        - Yıl, Ay, Gün, Saat sütunları
+        - Her sütun: Göksel Gövde (Heavenly Stem) + Yer Yüzü Dalı (Earthly Branch)
+        - 5 element sayımı ve dominant/eksik element analizi
+        - Day Master (Gün Yöneticisi) enerjisi
+        - Element ilişkileri (üretim + kontrol döngüsü)
+      operationId: baziHesapla
+      tags: [Hesaplama]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [yil, ay, gun, saat]
+              properties:
+                yil:
+                  type: integer
+                  example: 1990
+                ay:
+                  type: integer
+                  minimum: 1
+                  maximum: 12
+                  example: 5
+                gun:
+                  type: integer
+                  minimum: 1
+                  maximum: 31
+                  example: 15
+                saat:
+                  type: integer
+                  minimum: 0
+                  maximum: 23
+                  example: 14
+      responses:
+        "200":
+          description: BaZi haritası
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BaZiResponse'
+        "400":
+          description: Geçersiz parametre
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "401":
+          description: Yetkisiz
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "429":
+          description: Rate limit
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /api/v1/ay-menzili:
+    post:
+      summary: Ay Menzili (Lunar Mansion)
+      description: |
+        Ay'ın o andaki lunar mansion'ını hesaplar.
+        28 Ay Menzili sistemi — 3 geleneğin kesişimi:
+        - İslami: Menazil-ül Kamer
+        - Hint: Nakshatra (ay bazlı)
+        - Batı Ezoterik: Cornelius Agrippa geleneği
+        Her menzil için: anlam, yönetici, iyi/kötü aktiviteler.
+      operationId: ayMenziliHesapla
+      tags: [Hesaplama]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [yil, ay, gun]
+              properties:
+                yil:
+                  type: integer
+                  example: 2024
+                ay:
+                  type: integer
+                  minimum: 1
+                  maximum: 12
+                  example: 5
+                gun:
+                  type: integer
+                  minimum: 1
+                  maximum: 31
+                  example: 15
+                saat:
+                  type: integer
+                  minimum: 0
+                  maximum: 23
+                  default: 12
+                dakika:
+                  type: integer
+                  minimum: 0
+                  maximum: 59
+                  default: 0
+      responses:
+        "200":
+          description: Ay menzili sonucu
+        "400":
+          description: Geçersiz parametre
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "401":
+          description: Yetkisiz
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "429":
+          description: Rate limit
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /api/v1/iching:
+    post:
+      summary: I Ching Hexagram
+      description: |
+        İsimden I Ching hexagramı türetir:
+        - 64 hexagram arasından harf değer toplamıyla eşleştirme
+        - Üst ve Alt trigram analizi (8 temel trigram)
+        - Aktif hatlar (değişen çizgiler)
+        - Dönüşüm hexagramı
+        - Doğum tarihi ile doğum hexagramı
+      operationId: ichingHesapla
+      tags: [Hesaplama]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [isim]
+              properties:
+                isim:
+                  type: string
+                  example: "Orkun"
+                tarih:
+                  type: string
+                  pattern: '^\d{4}-\d{2}-\d{2}$'
+                  example: "1990-05-15"
+                  description: Doğum tarihi — doğum hexagramı için isteğe bağlı
+      responses:
+        "200":
+          description: I Ching sonucu
+        "400":
+          description: Geçersiz parametre
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "401":
+          description: Yetkisiz
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "429":
+          description: Rate limit
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /api/v1/kabbalah:
+    post:
+      summary: Kabbalah Sefirot Analizi
+      description: |
+        Kabbalah Ağacı Yaşamı analizi:
+        - Her harf Kabbalah sayı tablosuna göre değerlendirilir
+        - Toplam değerin dijital kökü bulunur (1-10)
+        - İlgili Sefirot belirlenir (Keter → Malkuth)
+        - Her harfin kendi Sefirot'u da analiz edilir
+        - Sefirot'un enerji, renk, gezegen ve anlam bilgileri döner
+      operationId: kabbalahHesapla
+      tags: [Hesaplama]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [metin]
+              properties:
+                metin:
+                  type: string
+                  example: "Adamah"
+      responses:
+        "200":
+          description: Kabbalah sonucu
+        "400":
+          description: Geçersiz parametre
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "401":
+          description: Yetkisiz
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "429":
+          description: Rate limit
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /api/v1/sentez:
+    post:
+      summary: "Sentez — Tüm Sistemler (Pro+)"
+      description: |
+        **Pro ve Enterprise tier gerektirir.**
+
+        Tüm hesaplama motorlarını tek HTTP isteğiyle çalıştırır.
+        Paralel hesaplama — yanıt süresi tek motora yakın.
+
+        **Kredi maliyeti: 5**
+
+        Metin sistemleri (her zaman):
+        ebced, numeroloji, rune, kabbalah, iching
+
+        Tarih sistemleri (dogumTarihi verilirse):
+        nakshatra, bazi, ay-menzili
+
+        Seçici çalıştırma için `sistemler` dizisi gönderin.
+      operationId: sentezHesapla
+      tags: [Hesaplama, Pro]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [metin]
+              properties:
+                metin:
+                  type: string
+                  example: "Orkun"
+                dogumTarihi:
+                  type: string
+                  pattern: '^\d{4}-\d{2}-\d{2}$'
+                  example: "1990-05-15"
+                dogumSaati:
+                  type: integer
+                  minimum: 0
+                  maximum: 23
+                  default: 12
+                  example: 14
+                sistemler:
+                  type: array
+                  items:
+                    type: string
+                    enum: [ebced, numeroloji, rune, kabbalah, iching, nakshatra, bazi, ay-menzili]
+                  description: Boş bırakılırsa tüm metin sistemleri çalışır
+                  example: ["ebced", "numeroloji", "kabbalah"]
+      responses:
+        "200":
+          description: Sentez — tüm sistemlerin sonuçları
+        "400":
+          description: Geçersiz parametre
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "401":
+          description: Yetkisiz
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "403":
+          description: Pro tier gerekli
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "429":
+          description: Rate limit
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /api/auth/register:
+    post:
+      summary: API Key Üret
+      description: |
+        Yeni API key oluşturur.
+        - **free**: Anında — ödeme gerekmez
+        - **starter/pro/enterprise**: Ödeme akışı sonrası
+      operationId: register
+      tags: [Auth]
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email]
+              properties:
+                email:
+                  type: string
+                  format: email
+                  example: gelistirici@ornek.com
+                tier:
+                  type: string
+                  enum: [free, starter, pro, enterprise]
+                  default: free
+      responses:
+        "201":
+          description: API key oluşturuldu
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success: { type: boolean, enum: [true] }
+                  data:
+                    type: object
+                    properties:
+                      apiKey:  { type: string, example: "kh_free_abcdefgh12345678901234" }
+                      tier:    { type: string, example: "free" }
+                      email:   { type: string }
+                      limits:
+                        type: object
+                        properties:
+                          rpm: { type: integer }
+                          rph: { type: integer }
+                          rpd: { type: integer, nullable: true }
+        "400":
+          description: Geçersiz e-posta
+        "403":
+          description: Ödeme gerekli (ücretli tier)
+
+  /api/auth/validate:
+    post:
+      summary: API Key Doğrula
+      description: API key'in geçerli olup olmadığını kontrol eder. Rate limit tüketmez.
+      operationId: validate
+      tags: [Auth]
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [apiKey]
+              properties:
+                apiKey:
+                  type: string
+                  example: "kh_free_abcdefgh12345678901234"
+      responses:
+        "200":
+          description: Doğrulama sonucu
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success: { type: boolean, enum: [true] }
+                  data:
+                    type: object
+                    properties:
+                      gecerli:   { type: boolean }
+                      tier:      { type: string }
+                      tierLabel: { type: string }
+                      limitler:
+                        type: object
+                        properties:
+                          rpm: { type: integer }
+                          rph: { type: integer }
+                          rpd: { type: integer, nullable: true }
+
+tags:
+  - name: Hesaplama
+    description: Kadim bilgelik hesaplama motorları
+  - name: Auth
+    description: API key kayıt ve doğrulama
+  - name: Pro
+    description: Pro ve Enterprise tier endpoint'leri

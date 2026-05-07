@@ -1,0 +1,82 @@
+[
+  {
+    "hz": 174,
+    "isim": "Fundamentum / Temel",
+    "nota": "Ut",
+    "etki": "Ağrı kesme, güvenlik hissi, zemin",
+    "bovis": "8.000–10.000",
+    "kullanim": "Uyku, ağrı yönetimi"
+  },
+  {
+    "hz": 285,
+    "isim": "Mira / Mucize",
+    "nota": "Re",
+    "etki": "Doku yenilenmesi, hücre onarımı",
+    "bovis": "10.000–12.000",
+    "kullanim": "Fiziksel iyileşme"
+  },
+  {
+    "hz": 396,
+    "isim": "Liberatio / Özgürlük",
+    "nota": "Ut",
+    "etki": "Korku ve suçluluktan arınma, Kök Çakra",
+    "bovis": "12.000–14.000",
+    "kullanim": "Travma serbest bırakma"
+  },
+  {
+    "hz": 417,
+    "isim": "Resonare / Rezonans",
+    "nota": "Re",
+    "etki": "Değişime açılma, engellerden arınma",
+    "bovis": "14.000–16.000",
+    "kullanim": "Blok temizleme"
+  },
+  {
+    "hz": 432,
+    "isim": "432 Hz (Evren Tonu)",
+    "nota": "–",
+    "etki": "Doğal armoni; DNA geometrisi ile rezonans",
+    "bovis": "15.000–20.000",
+    "kullanim": "Meditasyon, konsantrasyon"
+  },
+  {
+    "hz": 528,
+    "isim": "Mira Gestorum / Mucize",
+    "nota": "Mi",
+    "etki": "DNA tamiri, dönüşüm, sevgi frekansı",
+    "bovis": "20.000–25.000",
+    "kullanim": "Şifa, hücre rejenerasyonu"
+  },
+  {
+    "hz": 639,
+    "isim": "Famuli Tuorum / İlişki",
+    "nota": "Fa",
+    "etki": "İlişki uyumu, bağlantı, empati",
+    "bovis": "18.000–22.000",
+    "kullanim": "Sosyal uyum, kalp açma"
+  },
+  {
+    "hz": 741,
+    "isim": "Solve Polluti / Çözüm",
+    "nota": "Sol",
+    "etki": "Detoks, ifade özgürlüğü, sezgi açılımı",
+    "bovis": "22.000–28.000",
+    "kullanim": "Yaratıcılık, sezgi"
+  },
+  {
+    "hz": 852,
+    "isim": "Labii Reatum / Arınma",
+    "nota": "La",
+    "etki": "Üçüncü göz aktivasyonu, saf sezgi",
+    "bovis": "28.000–35.000",
+    "kullanim": "Bilinç genişlemesi"
+  },
+  {
+    "hz": 963,
+    "isim": "Sancte Iohannes / Kutsal",
+    "nota": "Si",
+    "etki": "Taç Çakra, ilahi bağlantı, Bir-lik",
+    "bovis": "50.000+",
+    "kullanim": "Aydınlanma çalışması"
+  }
+]

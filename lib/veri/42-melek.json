@@ -1,0 +1,412 @@
+[
+  {
+    "no": 1,
+    "isim": "ORPHANIEL",
+    "okunusu": "ORP-AH-NEE-ELL",
+    "acilis_anahtari": "AHV-GEE-TAHTZ",
+    "kabul_cumlesi": "AH-DEER-EAR-ORN",
+    "calisma_alanlari": "Duygusal Acıyı İyileştirmek, Kişiyi yükten",
+    "erdem": "Kalbini Açmak. Özellikle Tanrıya veya içindeki tanrı parçacığına olan",
+    "aciklama": "kurtarmak, kendisine duyduğu saygıyı arttırmak. Melek isminin Erdemi: Kalbini Açmak. Özellikle Tanrıya veya içindeki tanrı parçacığına olan blokajlarını kaldırmak"
+  },
+  {
+    "no": 2,
+    "isim": "BOEL",
+    "okunusu": "BOW-AH-ELL",
+    "acilis_anahtari": "AHV-GEE-TAHTZ",
+    "kabul_cumlesi": "BAH-HEAR-YAH-AWN",
+    "calisma_alanlari": "Kişinin güç kazanmasını sağlar. Bu güç kavramı",
+    "erdem": "Dürüstlüktür. Özellikle zor zamanlarda kişinin zorluklarını aşmasını",
+    "aciklama": "fiziksel güçten çok manevi güçtür. Ayakta tutar ve zorlukların üstesinden gelme kabiliyeti verir Melek isminin Erdemi: Dürüstlüktür. Özellikle zor zamanlarda kişinin zorluklarını aşmasını"
+  },
+  {
+    "no": 3,
+    "isim": "GAVRIEL",
+    "okunusu": "GAH-VREE-ELL",
+    "acilis_anahtari": "AHV-GEE-TAHTZ",
+    "kabul_cumlesi": "GUH-VEER-EE-AH-RAWN",
+    "calisma_alanlari": "Kişinin açaşlarını keşfetmesine yardım eder. Aynı",
+    "erdem": "Anlayış. Özellikle orantılı empati yeteneği",
+    "aciklama": "zamanda aile ile olan bağları kuvvetlendirir ve onarır. Melek isminin Erdemi: Anlayış. Özellikle orantılı empati yeteneği 3 Gavriel Mühür"
+  },
+  {
+    "no": 4,
+    "isim": "IOPHIEL",
+    "okunusu": "EE-OH-FEE-ELL",
+    "acilis_anahtari": "AHV-GEE-TAHTZ",
+    "kabul_cumlesi": "YEEG-BAH-HE-AH",
+    "calisma_alanlari": "Sanatsal tüm çalışmalar için çok yardımcıdır.",
+    "erdem": "Yaratıcılık. Kişinin akını ve sezgilerini kullanarak çözüm üretebilme",
+    "aciklama": "Kişinin içerisindeki yaratıcı potansiyeli açığa çıkarır. Çok çalışarak gelecek olan başarıları getirir. Kişinin algısını geliştirir. Melek isminin Erdemi: Yaratıcılık. Kişinin akını ve sezgilerini kullanarak çözüm üretebilme"
+  },
+  {
+    "no": 5,
+    "isim": "TUMIEL",
+    "okunusu": "TOO-ME-ELL",
+    "acilis_anahtari": "AHV-GEE-TAHTZ",
+    "kabul_cumlesi": "TEH-LAH-ME-AH",
+    "calisma_alanlari": "Suçluluk duygusunu iyileştirir ve özellikle affedişi",
+    "erdem": "Kişinin hatalarını görebilme ve ders çıkarabilme yeteneği",
+    "aciklama": "sağlar. Buradaki affediş sadece bir kişiye olan affediş değil kendini de affediştir. Kişilere gerçek olan duygularını hatırlatır. Melek isminin Erdemi: Kişinin hatalarını görebilme ve ders çıkarabilme yeteneği"
+  },
+  {
+    "no": 6,
+    "isim": "TZADKIEL",
+    "okunusu": "TSAD-KEY-ELL",
+    "acilis_anahtari": "AHV-GEE-TAHTZ",
+    "kabul_cumlesi": "TSUT-AHN-EE-AH",
+    "calisma_alanlari": "Liderlik etme yetisini kazanmak ve özellikle sesli",
+    "erdem": "Liderlik erdemi. Kişinin insiyatif alıp doğru hamleler yapabilmesini",
+    "aciklama": "iletişim yolu ile başkalarının dikkatini çekip ilgisini aktif tutmak. Liderlik becerileri ve güveni geliştirir. Melek isminin Erdemi: Liderlik erdemi. Kişinin insiyatif alıp doğru hamleler yapabilmesini"
+  },
+  {
+    "no": 7,
+    "isim": "KAVTZIEL",
+    "okunusu": "KAHV-TSEE-ELL",
+    "acilis_anahtari": "KUH-RAH-SUH-TAHN",
+    "kabul_cumlesi": "KUH-RAHM-EE-AH",
+    "calisma_alanlari": "Kaygı bozukluğu gibi durumlarda, anksiyetede",
+    "erdem": "Kaygıları ve Endişeleri yönetmek",
+    "aciklama": "kişiyi rahatlatır. Aynı zamanda kişiye rahat konuşma kabiliyeti basit, anlaşılır bir dille ifade etme yeteneğini verir. Melek isminin Erdemi: Kaygıları ve Endişeleri yönetmek"
+  },
+  {
+    "no": 8,
+    "isim": "RAVCHIEL",
+    "okunusu": "RAHV-KEY-ELL",
+    "acilis_anahtari": "KUH-RAH-SUH-TAHN",
+    "kabul_cumlesi": "RUH-GAH-REE-AH",
+    "calisma_alanlari": "Genellikle biten bir ilişkiyi canlandırmak için",
+    "erdem": "Tutku ve tutkuları yönetmek",
+    "aciklama": "tercih edilen isimdir. Kişilerin birbirine ne kadar çok değer verdiğini hatırlatır. Melek isminin Erdemi: Tutku ve tutkuları yönetmek 8 Ravchiel Mühür"
+  },
+  {
+    "no": 9,
+    "isim": "OZIEL",
+    "okunusu": "AWE-ZEE-ELL",
+    "acilis_anahtari": "KUH-RAH-SUH-TAHN",
+    "kabul_cumlesi": "EE-REE-REE-AH",
+    "calisma_alanlari": "Her türlü alışkanlık ve bağımlılıklarda çok",
+    "erdem": "İradeyi geliştirir ve iradeyi yönetmeyi sağlar",
+    "aciklama": "yardımcı olan bir isimdir. Bu konularda akla gelen ilk isim olsun çok etkilidir. Değişime direnen kişileri yumuşatır ve değişime hazır hale getirir. Melek isminin Erdemi: İradeyi geliştirir ve iradeyi yönetmeyi sağlar"
+  },
+  {
+    "no": 10,
+    "isim": "SHEMSHIEL",
+    "okunusu": "SHEM-SHE-ELL",
+    "acilis_anahtari": "KUH-RAH-SUH-TAHN",
+    "kabul_cumlesi": "SHUH-GAH-EE-AH",
+    "calisma_alanlari": "Blokaj ve tıkanıklıklara karşı çok iyidir. Her türl",
+    "erdem": "Fiziksel alemdeki farkındalık. Duyularınızı açar ve farkındalığınız artar.",
+    "aciklama": "üblokajı kaldırır. Aynı zamanda düşmanınız varsa kim olduğunu anlamanıza yardımcı olur. Melek isminin Erdemi: Fiziksel alemdeki farkındalık. Duyularınızı açar ve farkındalığınız artar. 10 Shemshiel Mühür"
+  },
+  {
+    "no": 11,
+    "isim": "TOFIEL",
+    "okunusu": "TORE-FEE-ELL",
+    "acilis_anahtari": "KUH-RAH-SUH-TAHN",
+    "kabul_cumlesi": "TEH-LAH-TEE-AH",
+    "calisma_alanlari": "Kişiyi korkutan herhangi bir durum olduğunda,",
+    "erdem": "Korkuları yenmek. Fobilerin üzerine giderek arınmak. Korkuları",
+    "aciklama": "korkuların kaynağının durulmasına ve kişinin rahatlamasına yardımcı olur. Melek isminin Erdemi: Korkuları yenmek. Fobilerin üzerine giderek arınmak. Korkuları yönetmek"
+  },
+  {
+    "no": 12,
+    "isim": "NAGRIEL",
+    "okunusu": "NAHG-REE-ELL",
+    "acilis_anahtari": "KUH-RAH-SUH-TAHN",
+    "kabul_cumlesi": "NUH-HAH-DEE-AH",
+    "calisma_alanlari": "Herhangi bir konunun ya da ürünün pazarlanması",
+    "erdem": "İfade. Kişinin ifade dilini geliştirmesini ve yönetmesini sağlar.",
+    "aciklama": "ve tanıtımının doğru yapılması ile ilgili güzel çalışır. Doğru iletişim kabiliyeti ile konuşmalara ve sunumlara güç verir. Melek isminin Erdemi: İfade. Kişinin ifade dilini geliştirmesini ve yönetmesini sağlar."
+  },
+  {
+    "no": 13,
+    "isim": "NACHLIEL",
+    "okunusu": "NAK-LEE-ELL",
+    "acilis_anahtari": "NAH-GAH-DEE-KESH",
+    "kabul_cumlesi": "KNEE-SHMAH-REE-AH",
+    "calisma_alanlari": "Kayıp zamanı yaşanan acı ve üzüntünün",
+    "erdem": "Acı. Kişinin acılar ve bitişler ile ilgili olan görüşünü ve bakış açısını",
+    "aciklama": "üstesinden gelmeyi sağlayan enerjidir. Kişiyi devam ettirir. Acıyı hafifletir. Melek isminin Erdemi: Acı. Kişinin acılar ve bitişler ile ilgili olan görüşünü ve bakış açısını değiştirmesine yardım eder. Acı ve kaybın getirdiği olgunluk."
+  },
+  {
+    "no": 14,
+    "isim": "GAVORIEL",
+    "okunusu": "GAH-VORE-EE-ELL",
+    "acilis_anahtari": "NAH-GAH-DEE-KESH",
+    "kabul_cumlesi": "GAH-REE-AH",
+    "calisma_alanlari": "Sakinlik ile ilgilidir. Huzursuz zamanlarda sıkıntılı",
+    "erdem": "Sakinlik ve Sükunet ile ilgilidir. Sessizliğin erdemi",
+    "aciklama": "ilişkilerde hem fiziksel hem ruhsal sakinlik getirir. Kontrol kaybı yaşanan durumlarda kontrolün sağlanmasını sağlar. Melek isminin Erdemi: Sakinlik ve Sükunet ile ilgilidir. Sessizliğin erdemi"
+  },
+  {
+    "no": 15,
+    "isim": "DAHNIEL",
+    "okunusu": "DAH-NEE-ELL",
+    "acilis_anahtari": "NAH-GAH-DEE-KESH",
+    "kabul_cumlesi": "DAH-REE-AH",
+    "calisma_alanlari": "Sizi ve enerjinizi sömüren kişilere karşı korunma",
+    "erdem": "Denge fazla olanın ya da eksik olanın bilinci",
+    "aciklama": "sağlar ve bu kişileri hayatınızdan uzaklaştırır. Hayatın akışına bir denge getirmek ve o dengeyi korumak için çağrılan bir isimdir. Dengesizliğin nerede oluştuğunu gösterir ve onu düzeltmenizi sağlar"
+  },
+  {
+    "no": 16,
+    "isim": "YEHODIEL",
+    "okunusu": "YEAH-HOARD-EE-ELL",
+    "acilis_anahtari": "NAH-GAH-DEE-KESH",
+    "kabul_cumlesi": "YAH-LEE-AH",
+    "calisma_alanlari": "Herhangi bir ilişkinin gerçek potansiyelinin",
+    "erdem": "Duyugu Yönetimi",
+    "aciklama": "farkına varma ve nereye gidebileceğini öngörme. Gerçekte nasıl hissettiğini keşfedip, duyguların derinine inebilmek Melek isminin Erdemi: Duyugu Yönetimi"
+  },
+  {
+    "no": 17,
+    "isim": "KEVASHIEL",
+    "okunusu": "KEV-AH-SHE-ELL",
+    "acilis_anahtari": "NAH-GAH-DEE-KESH",
+    "kabul_cumlesi": "KAH-SEE-AH",
+    "calisma_alanlari": "Takıntıların ve kişiye olumsuzluk çıkaran huyların",
+    "erdem": "Olumsuz yönler ile yüzleşme",
+    "aciklama": "geride kalmasını sağlar. Ezildiğinizi hissettiğiniz düşünce ve sorunlara karşı rahatlamayı sağlar. Çaresizlik hissinden kurtarır. Melek isminin Erdemi: Olumsuz yönler ile yüzleşme"
+  },
+  {
+    "no": 18,
+    "isim": "SHAHARIEL",
+    "okunusu": "SHAH-HAH-REE-ELL",
+    "acilis_anahtari": "NAH-GAH-DEE-KESH",
+    "kabul_cumlesi": "SHEEG-YORN-YAH",
+    "calisma_alanlari": "Kin ve intikam duygusu güttüğünüz konular ile",
+    "erdem": "Nefret kontrolü ve nefreti dönüştürebilecek irade.",
+    "aciklama": "yüzleşme ve bu konulardan özgürleşmeyi sağlar. Aynı zamanda herhangi bir ilişkinin en başındaki sevgi kıvılcımını geri kazandırır. Melek isminin Erdemi: Nefret kontrolü ve nefreti dönüştürebilecek irade."
+  },
+  {
+    "no": 19,
+    "isim": "BERACHIEL",
+    "okunusu": "BEH-RAH-KEY-ELL",
+    "acilis_anahtari": "BAH-TRAHTS-TAHG",
+    "kabul_cumlesi": "BAW-AHL-EE-AH",
+    "calisma_alanlari": "Sezgilerin artışı ile ilgilidir. Özelllikle belirli bir",
+    "erdem": "Sezgisel anlamda farkındalık. Bu sayede işaretleri daha net",
+    "aciklama": "konuda sezgilerimize ihtiyaç duyduğumuz zaman başvurabileceğimiz en güçlü isimlerdendir. Kişinin hayatındaki eşzamanlılıkları, alametleri ve işaretleri de arttırır Melek isminin Erdemi: Sezgisel anlamda farkındalık. Bu sayede işaretleri daha net"
+  },
+  {
+    "no": 20,
+    "isim": "TAHFTIEL",
+    "okunusu": "TAHF-TEE-ELL",
+    "acilis_anahtari": "BAH-TRAHTS-TAHG",
+    "kabul_cumlesi": "TORE-AH-REE-AH",
+    "calisma_alanlari": "Fikir üretebilmeyi ve fikirleri doğru yönetebilmeyi",
+    "erdem": "Zihin ve zihin yönetiminin erdemi",
+    "aciklama": "sağlar. Aynı zamanda var olan bir probleminarkasındaki gerçek nedenin görülmesini sağlar. Melek isminin Erdemi: Zihin ve zihin yönetiminin erdemi 20 Tahftiel Mühür"
+  },
+  {
+    "no": 21,
+    "isim": "RACHMIEL",
+    "okunusu": "RAK-ME-ELL",
+    "acilis_anahtari": "BAH-TRAHTS-TAHG",
+    "kabul_cumlesi": "RAHM-YAH",
+    "calisma_alanlari": "Yenilenme ve yeniden başlama yetisini",
+    "erdem": "Öğrenim. Öğrenmede kolaylık sağlar.",
+    "aciklama": "kazandırır. Buradaki yenilenme sadece manevi anlamda değil fiziksel anlamda da çalışır. Hücre yenilenmesi v.b. gibi. Merak duygusunu yönetmek ve merak duygusunu kazanmak yeniden heveslenmek için de kullanılan bir isimdir."
+  },
+  {
+    "no": 22,
+    "isim": "TZAFUNIEL",
+    "okunusu": ": TSAH-FOO-NEE-ELL",
+    "acilis_anahtari": "BAH-TRAHTS-TAHG",
+    "kabul_cumlesi": "TSAH-TSAH-TSEE-YAH",
+    "calisma_alanlari": "Kişiye Sabır ve Güç Sağlar. Özellikle şartlar",
+    "erdem": "Zorluklar ile başa çıkma kabiliyeti",
+    "aciklama": "kötüleştiğinde insiyatifi elinize almak durumun içerisinden çıkmak ve kendinize gelmenizi şartları lehinize döndürmek için başvurulan bir isimdir Melek isminin Erdemi: Zorluklar ile başa çıkma kabiliyeti"
+  },
+  {
+    "no": 23,
+    "isim": "TRUMIEL",
+    "okunusu": ": TRUE-ME-ELL",
+    "acilis_anahtari": "BAH-TRAHTS-TAHG",
+    "kabul_cumlesi": ": TAH-HAH-VEE-HEE-YAH",
+    "calisma_alanlari": "Yeni bir ortama girildiğinde şans getirir. Yen ev",
+    "erdem": "Dostluk",
+    "aciklama": "yeni iş, yeni okul yeni arkadaşlıklar. Kolay sosyalleşmeyi ve hayat kalitesini arttırması ile bilinir. İçinizdeki iyiliğin başkaları tarafından görülmesini sağlar. Melek isminin Erdemi: Dostluk"
+  },
+  {
+    "no": 24,
+    "isim": "GEDODIEL",
+    "okunusu": "GED-AWE-DEE-ELL",
+    "acilis_anahtari": "BAH-TRAHTS-TAHG",
+    "kabul_cumlesi": "GAH-LAH-GAHL-EE-AH",
+    "calisma_alanlari": "Herhangi bir düşman veya rakibin radarından",
+    "erdem": "Teselli",
+    "aciklama": "çıkmak için kullanılır. Kişiyi bu kişilere karşı ulaşılmaz hale getirdiği düşünülür Melek isminin Erdemi: Teselli 24 Gedodiel"
+  },
+  {
+    "no": 25,
+    "isim": "CHEZIEL",
+    "okunusu": "KEZ-EE-ELL",
+    "acilis_anahtari": "KAH-KEV-ET-NAH",
+    "kabul_cumlesi": "KEEN-AHN-AH-YAH",
+    "calisma_alanlari": "Haberci rüyaları çekmek için kullanılır. Aynı",
+    "erdem": "Kehanet",
+    "aciklama": "zamanda kişinin gördüklerini anlamlandırması, işaretleri algılaması için oldukça iyidir. Melek isminin Erdemi: Kehanet 25 Cheziel"
+  },
+  {
+    "no": 26,
+    "isim": "KUMIEL",
+    "okunusu": "KOO-ME-ELL",
+    "acilis_anahtari": "KAH-KEV-ET-NAH",
+    "kabul_cumlesi": ": KAH-TAH-KAH-YAH",
+    "calisma_alanlari": "Çok çalışan kişilerin zihinlerini ve bedenlerini",
+    "erdem": "Çalışmak",
+    "aciklama": "yenilemeleri için iyidir. Mental yorgunluk gibi stres gibi etkilerden kurtulmaya yardım eder. Verimli üretkenlik sağlar. Melek isminin Erdemi: Çalışmak"
+  },
+  {
+    "no": 27,
+    "isim": "BARKIEL",
+    "okunusu": "BARK-EE-ELL",
+    "acilis_anahtari": "KAH-KEV-ET-NAH",
+    "kabul_cumlesi": ": BEH-HAHV-HAHV-EE-AH",
+    "calisma_alanlari": "Kişiler arasında iletişimi arttırır ve netleştirir.",
+    "erdem": "Azim",
+    "aciklama": "Mesajın yerine ulaşmasını sağlar. Sınavlar ve sorumluluklar karşısında kişinin üstüne düşenleri yapmasını sağlar. Öğrenciler için en çok kullanılan isimdir. Odaklanmayı arttırır. Melek isminin Erdemi: Azim"
+  },
+  {
+    "no": 28,
+    "isim": "TAHARIEL",
+    "okunusu": "TAH-HAH-REE-ELL",
+    "acilis_anahtari": "KAH-KEV-ET-NAH",
+    "kabul_cumlesi": "TAH-VEH-HAW-YAH",
+    "calisma_alanlari": "Uzun yolculuklarda güven içerisinde seyahat",
+    "erdem": "Önyargısız Olmak",
+    "aciklama": "etmeyi sağlayan isimdir. Aynı zamanda kişileri olduğu gibi görmeyi sağlamak gerçek yüzünü anlamayı kolaylaştırmak ve önyargıları kaldırmak için başvurulur Melek isminin Erdemi: Önyargısız Olmak"
+  },
+  {
+    "no": 29,
+    "isim": "NURIEL",
+    "okunusu": "NOO-REE-ELL",
+    "acilis_anahtari": "KAH-KEV-ET-NAH",
+    "kabul_cumlesi": "NUH-TAH-NEE-AH",
+    "calisma_alanlari": "Kişinin özgüvenini kazanmasında ve eleştriler",
+    "erdem": "Hitabet",
+    "aciklama": "karşısında dik durmasında etkilidir. Özellikle iş yaşantısında mobing gören ya da çok zorlanan kişiler için yardımcıdır. Topluluk önünde rahat konuşmayı sağlar Melek isminin Erdemi: Hitabet"
+  },
+  {
+    "no": 30,
+    "isim": "AMIEL",
+    "okunusu": "AH-ME-ELL",
+    "acilis_anahtari": "KAH-KEV-ET-NAH",
+    "kabul_cumlesi": "AH-MAH-MAH-YAH",
+    "calisma_alanlari": "Her türlü sosyal platformda kişinin kendisini",
+    "erdem": "Ego",
+    "aciklama": "rahat hissetmesini sağlar. Cazibe katmak için kullanılır kişinin ışığını yansıtmak ve onun doğasını açığa çıkarıp popülerleşmesini sağlamak için başvurulur. Melek isminin Erdemi: Ego"
+  },
+  {
+    "no": 32,
+    "isim": "GAHDIEL",
+    "okunusu": "GAH-DEE-ELL",
+    "acilis_anahtari": "YAHG-LEFF-ZAWK",
+    "kabul_cumlesi": "GORE-EAR-AH-EE-AH",
+    "calisma_alanlari": "Her türlü konunun önündeki engelleri kaldırması",
+    "erdem": "Söz Tutmak",
+    "aciklama": "ile bilinir. Özellikle uzun vadeli projeleri ve işleri destekler bu sebep ile iş arayan kişiler için kullanılan bir isimdir. Yaptığın işte süreklilik sağlar. Melek isminin Erdemi: Söz Tutmak"
+  },
+  {
+    "no": 33,
+    "isim": "LAHAVIEL",
+    "okunusu": "LAH-HAH-VEE-ELL",
+    "acilis_anahtari": "YAHG-LEFF-ZAWK",
+    "kabul_cumlesi": "LEH-ME-MAH-REE-AH",
+    "calisma_alanlari": "Aslında niyet okumak ve başkalarının sakladığı",
+    "erdem": "Güven",
+    "aciklama": "yüzlerini görmek, aldatmacaların öteini algılayabilmek için en çok kullanılan isimlerdendir. Ancak temel kullanımı güven oluşturmaktır. güvenin sürekliliğini sağlamaktır. Melek isminin Erdemi: Güven"
+  },
+  {
+    "no": 34,
+    "isim": "PAHNIEL",
+    "okunusu": "PAH-NEE-ELL",
+    "acilis_anahtari": "YAHG-LEFF-ZAWK",
+    "kabul_cumlesi": "PEH-KOR-KAH-REE-AH",
+    "calisma_alanlari": "Kişinin ikna kabiliyetini arttırır ve söylem ve",
+    "erdem": "Yardımseverlik",
+    "aciklama": "yaptıklarının daha kalabalık kesimler tarafından kabul görmesini sağlar. Toplu bir çalışma ortamında veya aile ortamında ön plana çıkmayı ve kalabalıktan sıyrılmayı sağlar. (Örn: atama bekleyen bir öğretmenin, bekleyen kalabalık grup arasından daha kolay çıkmasını"
+  },
+  {
+    "no": 35,
+    "isim": "ZACHRIEL",
+    "okunusu": "ZAK-REE-ELL",
+    "acilis_anahtari": "YAHG-LEFF-ZAWK",
+    "kabul_cumlesi": "ZUH-HAH-RUH-ZAH-HAH-REE-AH",
+    "calisma_alanlari": "Kişininvizyonunu geliştirir ve yeni fikirlere açık",
+    "erdem": "Değişim",
+    "aciklama": "hale getirerek hayatında kontrollü devrim yapmasına izin verir. Değişimleri kontrolünüz doğrultusunda kendinize çekin (Örn: başka bir şehre taşınıp yeni bir hayata başlarken sisteminizin veya gelirinizin bundan etkilenmemesini sağlamak v.b. gibi)"
+  },
+  {
+    "no": 36,
+    "isim": "KEDOSHIEL",
+    "okunusu": "KED-AWE-SHE-ELL",
+    "acilis_anahtari": "YAHG-LEFF-ZAWK",
+    "kabul_cumlesi": "KEH-MAH-LEE-YAH",
+    "calisma_alanlari": "Kişinin otoritesini geliştirir. Özellikle ayağını",
+    "erdem": "Otorite",
+    "aciklama": "kaydırmak isteyen kişilere karşı söz sahibi yapar.Planlara sadık kalmak aksiliklere rağmen yola devam edebilmeyi sağlar. Melek isminin Erdemi: Otorite"
+  },
+  {
+    "no": 37,
+    "isim": "SHELGIEL",
+    "okunusu": "SHELL-GEE-ELL",
+    "acilis_anahtari": "SHAH-COOTS-EAT",
+    "kabul_cumlesi": "SHAH-TEH-HOARD-RAH-YAH",
+    "calisma_alanlari": "Umutsuzluğun üstesinden gelmek için",
+    "erdem": "Umut",
+    "aciklama": "başvurulan isimdir. Aynı zamanda net olmayan konuları netleştirmek belirsizlikleri belirgin hale getirmek için başvurulur. Melek isminin Erdemi: Umut"
+  },
+  {
+    "no": 38,
+    "isim": "KARVIEL",
+    "okunusu": "KAH-VEE-ELL",
+    "acilis_anahtari": "SHAH-COOTS-EAT",
+    "kabul_cumlesi": "KAH-DAW-SHE-AH",
+    "calisma_alanlari": "Zamanın bilincini arttırır. Bir konunun sonunun",
+    "erdem": "Zamanın bilinci",
+    "aciklama": "daha hızlı ya da daha yavaş işlemesi için kullanılır. Hızlı sonuç. Aynı zamanda kısa sürede çok daha fazla eylemde bulunmayı mümkn kılar. Melek isminin Erdemi: Zamanın bilinci"
+  },
+  {
+    "no": 39,
+    "isim": "VAVIEL",
+    "okunusu": "VAH-VEE-ELL",
+    "acilis_anahtari": "SHAH-COOTS-EAT",
+    "kabul_cumlesi": "VEH-HAH-AH-LAYL-EE-AH",
+    "calisma_alanlari": "Aşk çalışmalarında kullanılır. Lakin bu sadece",
+    "erdem": "Aşk",
+    "aciklama": "birinin diğerini etkilemesi olarak değildir. Aşk diye betimlediğimiz duygunun arka planında yatan gerçek hisleri anlamamızı sağlar. Bir kişinin gözünü açabilir. Melek isminin Erdemi: Aşk"
+  },
+  {
+    "no": 40,
+    "isim": "TZURIEL",
+    "okunusu": "TSOO-REE-ELL",
+    "acilis_anahtari": "SHAH-COOTS-EAT",
+    "kabul_cumlesi": "TSAH-DEE-YAH",
+    "calisma_alanlari": "Zevk haz ve şans çalışmaları için idealdir.",
+    "erdem": "Zevki Kontrol etmek",
+    "aciklama": "Rastgele karşınıza çıkabilecek şans faktörlerini hayatınıza çeker. Aynı zamanda seyahat gibi konularda kişinin dilediği yere gidebilmesi için kapıları açar. Melek isminin Erdemi: Zevki Kontrol etmek"
+  },
+  {
+    "no": 41,
+    "isim": "IALPIEL",
+    "okunusu": "EE-AL-PEA-ELL",
+    "acilis_anahtari": "SHAH-COOTS-EAT",
+    "kabul_cumlesi": "YEET-HAH-REH-REE-AH",
+    "calisma_alanlari": "Kişilere yük olan enerjilerden uzaklaşılmasını",
+    "erdem": "Yanlızlık",
+    "aciklama": "sağlar ve korkulardan kaynaklı hayattaki engellemelerin önüne geçer. Arkanıza bakmadan ilerlemeyi sağlar. Melek isminin Erdemi: Yanlızlık"
+  },
+  {
+    "no": 42,
+    "isim": "TAVRIEL",
+    "okunusu": "TAHV-REE-ELL",
+    "acilis_anahtari": "SHAH-COOTS-EAT",
+    "kabul_cumlesi": "TAHM-TAIL-EE-AH",
+    "calisma_alanlari": "Gerçeklik üzerinde kontrol etme ve gerçeklik",
+    "erdem": "Gerçekliğin algısı",
+    "aciklama": "algısının farkındalığı ile ilgili çalışılır. Güçlü bir isimdir özellikle eşya manipülasyonu, kuantum boyutu ile ilgili çalışmalar yapılabilir. Melek isminin Erdemi: Gerçekliğin algısı"
+  }
+]

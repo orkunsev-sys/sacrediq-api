@@ -1,0 +1,567 @@
+[
+  {
+    "id": "fire_dominant",
+    "priority": 8,
+    "trigger": {
+      "element.fire.gte": 3
+    },
+    "interpretation_tr": "Ateş elementi baskın: güçlü irade, manifestasyon enerjisi ve eylem dürtüsü öne çıkıyor. Bu bir inisiyatif yılı; bastırılan tutkular artık kıvılcım arıyor.",
+    "interpretation_en": "Fire element dominant: strong will, manifestation energy and action impulse emerge. This is a year of initiative; suppressed passions are now seeking a spark."
+  },
+  {
+    "id": "water_dominant",
+    "priority": 8,
+    "trigger": {
+      "element.water.gte": 3
+    },
+    "interpretation_tr": "Su elementi baskın: derin sezgi, duygusal akış ve bilinçdışı bilgi öne çıkıyor. Hayat seni içe çekiyor; rüyalara ve iç seslere kulak ver.",
+    "interpretation_en": "Water element dominant: deep intuition, emotional flow and unconscious knowing emerge. Life is pulling you inward; listen to dreams and inner voices."
+  },
+  {
+    "id": "air_dominant",
+    "priority": 8,
+    "trigger": {
+      "element.air.gte": 3
+    },
+    "interpretation_tr": "Hava elementi baskın: zihinsel keskinlik, iletişim gücü ve bağlantı enerjisi öne çıkıyor. Kelimeler bu dönem silah ve şifa aracıdır.",
+    "interpretation_en": "Air element dominant: mental sharpness, communication power and connection energy emerge. Words are both weapon and medicine this season."
+  },
+  {
+    "id": "earth_dominant",
+    "priority": 8,
+    "trigger": {
+      "element.earth.gte": 3
+    },
+    "interpretation_tr": "Toprak elementi baskın: köklülük, maddi inşa ve sabır çağrısı öne çıkıyor. Somutlaştırma zamanı; tohumlar meyve verecek.",
+    "interpretation_en": "Earth element dominant: groundedness, material building and patience emerge. Time to manifest; seeds are ready to fruit."
+  },
+  {
+    "id": "missing_fire",
+    "priority": 9,
+    "trigger": {
+      "element.fire.eq": 0
+    },
+    "interpretation_tr": "Ateş elementi yok: tutku, irade ve aksiyon dürtüsü bloke olmuş. Harekete geçmek için dışarıdan kıvılcım değil, içeriden izin gerekiyor.",
+    "interpretation_en": "Fire element absent: passion, will and action impulse are blocked. What is needed is not an external spark but internal permission to move."
+  },
+  {
+    "id": "missing_water",
+    "priority": 9,
+    "trigger": {
+      "element.water.eq": 0
+    },
+    "interpretation_tr": "Su elementi yok: duygusal akış engellenmiş, sezgisel kanal kapalı. Hissetmeye izin vermek bu dönemin en büyük iyileşme eylemi.",
+    "interpretation_en": "Water element absent: emotional flow blocked, intuitive channel closed. Allowing yourself to feel is the greatest healing act of this period."
+  },
+  {
+    "id": "missing_air",
+    "priority": 9,
+    "trigger": {
+      "element.air.eq": 0
+    },
+    "interpretation_tr": "Hava elementi yok: zihinsel berraklık ve iletişim zorlaşmış. Duyguların ve sezginin altında sessizce bekleyen gerçekleri ifade etmek gerekiyor.",
+    "interpretation_en": "Air element absent: mental clarity and communication strained. Truths waiting silently beneath emotions and intuition need expression."
+  },
+  {
+    "id": "missing_earth",
+    "priority": 9,
+    "trigger": {
+      "element.earth.eq": 0
+    },
+    "interpretation_tr": "Toprak elementi yok: köksüzlük ve pratik zemin eksikliği. Hayaller güçlü ama somutlaştırma halkası eksik; zemine dönme zamanı.",
+    "interpretation_en": "Earth element absent: rootlessness and lack of practical grounding. Dreams are strong but the manifestation link is missing; time to return to earth."
+  },
+  {
+    "id": "all_elements_present",
+    "priority": 7,
+    "trigger": {
+      "element.fire.gte": 1,
+      "element.water.gte": 1,
+      "element.air.gte": 1,
+      "element.earth.gte": 1
+    },
+    "interpretation_tr": "Dört element dengede: ateş, su, hava ve toprak aynı anda aktif. Bu nadir bir bütünlük anıdır; tüm boyutlar erişilebilir.",
+    "interpretation_en": "Four elements in balance: fire, water, air and earth active simultaneously. This is a rare moment of wholeness; all dimensions are accessible."
+  },
+  {
+    "id": "fire_water_alchemy",
+    "priority": 7,
+    "trigger": {
+      "element.fire.gte": 2,
+      "element.water.gte": 2
+    },
+    "interpretation_tr": "Ateş ve su: simyanın temel çifti. Tutku ile sezginin dansı, akıl ile duygunun birleşimi. İç simya aktif.",
+    "interpretation_en": "Fire and water: the fundamental alchemical pair. Dance of passion and intuition, union of reason and feeling. Inner alchemy active."
+  },
+  {
+    "id": "earth_air_manifest",
+    "priority": 6,
+    "trigger": {
+      "element.earth.gte": 2,
+      "element.air.gte": 2
+    },
+    "interpretation_tr": "Toprak ve hava: düşünceyi somutlaştırma gücü. Zihinsel vizyonları fiziksel gerçeğe dönüştürmek için koşullar olgunlaşmış.",
+    "interpretation_en": "Earth and air: power to manifest thought into form. Conditions are ripe to translate mental visions into physical reality."
+  },
+  {
+    "id": "crown_active",
+    "priority": 8,
+    "trigger": {
+      "chakra.crown.gte": 2
+    },
+    "interpretation_tr": "Taç çakrası aktif: bilinç genişliyor, spiritüel kanal açık. Yüksek frekansları almaya ve iletmeye hazır bir yapı.",
+    "interpretation_en": "Crown chakra active: consciousness expanding, spiritual channel open. A structure ready to receive and transmit high frequencies."
+  },
+  {
+    "id": "root_blocked",
+    "priority": 9,
+    "trigger": {
+      "chakra.root.eq": 0
+    },
+    "interpretation_tr": "Kök çakrası bloke: temel güvensizlik ve köksüzlük işareti. Yüksek enerji mevcut ama topraklanmadan yetersiz; bu enerji boşa akıyor.",
+    "interpretation_en": "Root chakra blocked: sign of foundational insecurity and rootlessness. High energy present but insufficient grounding; this energy flows to waste."
+  },
+  {
+    "id": "heart_center",
+    "priority": 7,
+    "trigger": {
+      "chakra.heart.gte": 2
+    },
+    "interpretation_tr": "Kalp çakrası merkezi: sevgi, şefkat ve bağlantı enerjisi lider güç. Her şey kalp üzerinden anlam kazanıyor.",
+    "interpretation_en": "Heart chakra central: love, compassion and connection energy lead. Everything gains meaning through the heart."
+  },
+  {
+    "id": "throat_blocked",
+    "priority": 8,
+    "trigger": {
+      "chakra.throat.eq": 0
+    },
+    "interpretation_tr": "Boğaz çakrası bloke: ifade edilemeyen gerçekler, bastırılmış sesler. Söylenmemiş kelimeler enerjiyi tıkıyor; konuşmak bir özgürleşme.",
+    "interpretation_en": "Throat chakra blocked: unexpressed truths, suppressed voices. Unspoken words block energy; speaking is a liberation."
+  },
+  {
+    "id": "third_eye_open",
+    "priority": 7,
+    "trigger": {
+      "chakra.third_eye.gte": 2
+    },
+    "interpretation_tr": "Üçüncü göz açık: sezgisel görüş keskin, örüntüler belirgin. Bu dönemde akla gelen ilk his çoğu zaman doğrudur.",
+    "interpretation_en": "Third eye open: intuitive vision sharp, patterns clear. In this period the first feeling that comes to mind is often correct."
+  },
+  {
+    "id": "solar_dominant",
+    "priority": 7,
+    "trigger": {
+      "chakra.solar_plexus.gte": 3
+    },
+    "interpretation_tr": "Solar pleksus baskın: kişisel güç ve irade merkezde. Hedeflere ulaşma kapasitesi yüksek; öz güven bu dönem en büyük kaynağın.",
+    "interpretation_en": "Solar plexus dominant: personal power and will at center. Capacity to reach goals high; self-confidence is your greatest resource this period."
+  },
+  {
+    "id": "sacral_active",
+    "priority": 6,
+    "trigger": {
+      "chakra.sacral.gte": 3
+    },
+    "interpretation_tr": "Sakral merkez aktif: yaratıcı güç ve duygusal akış zirvede. Sanatsal üretim, aşk ve tutkular yoğun hissedilecek.",
+    "interpretation_en": "Sacral center active: creative power and emotional flow at peak. Artistic production, love and passions will be felt intensely."
+  },
+  {
+    "id": "warrior_dominant",
+    "priority": 7,
+    "trigger": {
+      "archetype.warrior.gte": 2
+    },
+    "interpretation_tr": "Savaşçı arketipi baskın: mücadele, sınır koyma ve cesaret ön planda. Savaşılmaya değer ne var — bunu belirlemek hayati önem taşıyor.",
+    "interpretation_en": "Warrior archetype dominant: struggle, boundary-setting and courage foreground. What is worth fighting for — defining this is vital."
+  },
+  {
+    "id": "sage_dominant",
+    "priority": 7,
+    "trigger": {
+      "archetype.sage.gte": 2
+    },
+    "interpretation_tr": "Bilge arketipi baskın: iç gözlem, öğrenme ve anlayış derinliği öne çıkıyor. Bu bir bilgelik yılı; bilgi değil anlayış aranıyor.",
+    "interpretation_en": "Sage archetype dominant: introspection, learning and depth of understanding emerge. This is a wisdom year; understanding, not information, is sought."
+  },
+  {
+    "id": "healer_gift",
+    "priority": 7,
+    "trigger": {
+      "archetype.healer.gte": 1,
+      "element.water.gte": 2
+    },
+    "interpretation_tr": "Şifacı armağanı aktif: su ve şifacı arketipinin buluşması, diğerlerini iyileştirme kapasitesi yüksek. Kendi yaralarına bakmak da bu dönemin ödevidir.",
+    "interpretation_en": "Healer gift active: water and healer archetype meeting, capacity to heal others high. Looking at your own wounds is also the assignment of this period."
+  },
+  {
+    "id": "creator_dominant",
+    "priority": 7,
+    "trigger": {
+      "archetype.creator.gte": 2
+    },
+    "interpretation_tr": "Yaratıcı arketipi baskın: doğurma, üretme ve ifade etme enerjisi zirvede. Yaratıcı projeler için en verimli dönem.",
+    "interpretation_en": "Creator archetype dominant: birthing, producing and expressing energy at peak. The most fertile period for creative projects."
+  },
+  {
+    "id": "ruler_overload",
+    "priority": 8,
+    "trigger": {
+      "archetype.ruler.gte": 3
+    },
+    "interpretation_tr": "Hükümdar arketipi aşırı aktif: kontrol ihtiyacı yoğun, bırakmak güçleşiyor. Güç bir armağan ama kontrol eden sonunda serbest bırakmayı öğrenir.",
+    "interpretation_en": "Ruler archetype overactive: need for control intense, releasing becomes difficult. Power is a gift but the one who controls ultimately learns to release."
+  },
+  {
+    "id": "magician_awake",
+    "priority": 8,
+    "trigger": {
+      "archetype.magician.gte": 1,
+      "archetype.sage.gte": 1
+    },
+    "interpretation_tr": "Büyücü ve Bilge birlikte uyanmış: mistik bilgelik kapısı açık. Sıradan olguların ardındaki derin örüntüler görülmeye başlanıyor.",
+    "interpretation_en": "Magician and Sage awakening together: door to mystical wisdom open. Deep patterns behind ordinary phenomena begin to be seen."
+  },
+  {
+    "id": "seeker_journey",
+    "priority": 6,
+    "trigger": {
+      "archetype.seeker.gte": 2
+    },
+    "interpretation_tr": "Arayıcı arketipi baskın: yolculuk ve keşif enerjisi aktif. Cevap bulmaktan çok doğru soruyu sormak bu dönemin hediyesidir.",
+    "interpretation_en": "Seeker archetype dominant: journey and exploration energy active. Asking the right question, rather than finding the answer, is the gift of this period."
+  },
+  {
+    "id": "lover_harmony",
+    "priority": 6,
+    "trigger": {
+      "archetype.lover.gte": 2
+    },
+    "interpretation_tr": "Âşık arketipi baskın: aşk, güzellik ve bağ enerjisi önde. Kalp açık ve alıcı; derin ilişkiler için verimli zemin.",
+    "interpretation_en": "Lover archetype dominant: love, beauty and connection energy foreground. Heart open and receptive; fertile ground for deep relationships."
+  },
+  {
+    "id": "caregiver_active",
+    "priority": 6,
+    "trigger": {
+      "archetype.caregiver.gte": 2
+    },
+    "interpretation_tr": "Bakıcı arketipi baskın: hizmet, besleme ve koruma güdüsü ön planda. Kendin için de aynı şefkati göstermeyi unutma.",
+    "interpretation_en": "Caregiver archetype dominant: service, nourishment and protection drive foreground. Do not forget to show the same compassion to yourself."
+  },
+  {
+    "id": "rebel_breaks",
+    "priority": 7,
+    "trigger": {
+      "archetype.rebel.gte": 1,
+      "element.fire.gte": 2
+    },
+    "interpretation_tr": "İsyancı ve ateş birlikte: yerleşik düzeni sarsmak ve yeni yollar açmak için güçlü bir impuls. Neye karşı çıktığını değil, ne için çıktığını bil.",
+    "interpretation_en": "Rebel and fire together: strong impulse to shake established order and open new paths. Know not what you are against, but what you are for."
+  },
+  {
+    "id": "innocent_protected",
+    "priority": 6,
+    "trigger": {
+      "archetype.innocent.gte": 2
+    },
+    "interpretation_tr": "Masum arketipi baskın: saflık ve güven duygusu aktif. Dünyayı henüz lekelememiş gözlerle görmek bu dönemin armağanı.",
+    "interpretation_en": "Innocent archetype dominant: purity and trust feeling active. Seeing the world through unlensed eyes is the gift of this period."
+  },
+  {
+    "id": "jester_joy",
+    "priority": 5,
+    "trigger": {
+      "archetype.jester.gte": 1,
+      "element.air.gte": 2
+    },
+    "interpretation_tr": "Soytarı ve hava: hafiflik, oyun ve neşe enerjisi aktif. Ciddiyeti bırakıp dans etmek — bu da bir bilgelik.",
+    "interpretation_en": "Jester and air: lightness, play and joy energy active. Dropping seriousness and dancing — this too is a wisdom."
+  },
+  {
+    "id": "yang_heavy",
+    "priority": 7,
+    "trigger": {
+      "polarity.yang.gte": 5
+    },
+    "interpretation_tr": "Yang enerjisi çok baskın: dışa vurma, aksiyon ve kontrol aşırı ağır basmış. Dinlenmek ve almak da var olmaktır.",
+    "interpretation_en": "Yang energy very dominant: expression, action and control have overweighed. Resting and receiving is also a form of being."
+  },
+  {
+    "id": "yin_heavy",
+    "priority": 7,
+    "trigger": {
+      "polarity.yin.gte": 5
+    },
+    "interpretation_tr": "Yin enerjisi çok baskın: içe çekilme ve pasiflik yoğunlaşmış. Bu derinleşme zamanı olabilir ama bir noktada dışarıya akış gerekecek.",
+    "interpretation_en": "Yin energy very dominant: withdrawal and passivity intensified. This may be a time of deepening but at some point outward flow will be needed."
+  },
+  {
+    "id": "perfect_polarity",
+    "priority": 8,
+    "trigger": {
+      "polarity.balanced.gte": 3
+    },
+    "interpretation_tr": "Dengeli polarite güçlü: yin, yang ve denge üçlü olarak aktif. Kozmik ritme uyum sağlanmış; hem veren hem alan, hem duran hem hareket eden.",
+    "interpretation_en": "Balanced polarity strong: yin, yang and balance active in triple. Aligned with cosmic rhythm; both giving and receiving, both still and moving."
+  },
+  {
+    "id": "all_high_intensity",
+    "priority": 8,
+    "trigger": {
+      "intensity.high.gte": 5
+    },
+    "interpretation_tr": "Yüksek yoğunluk baskın: her şey çok güçlü hissettiriyor. Bu bir zirve dönemi — aynı zamanda bir tükenme riski. Bilinçli kıl-ver ritmi şart.",
+    "interpretation_en": "High intensity dominant: everything feels very powerful. This is a peak period — also a risk of burnout. Conscious give-and-release rhythm essential."
+  },
+  {
+    "id": "low_intensity_rest",
+    "priority": 7,
+    "trigger": {
+      "intensity.low.gte": 3
+    },
+    "interpretation_tr": "Düşük yoğunluk baskın: dinlenme, sessizleşme ve içe hazırlanma zamanı. Görünmez büyüme en derinden çalışan büyümedir.",
+    "interpretation_en": "Low intensity dominant: time to rest, quiet down and prepare inwardly. Invisible growth is the growth that works deepest."
+  },
+  {
+    "id": "north_grounding",
+    "priority": 6,
+    "trigger": {
+      "direction.north.gte": 3
+    },
+    "interpretation_tr": "Kuzey yönü baskın: köklü olmak, geri çekilmek ve derinlere inmek. Kuzey enerjisi — toprağın sesi.",
+    "interpretation_en": "North direction dominant: being rooted, withdrawing and going deep. Northern energy — the voice of the earth."
+  },
+  {
+    "id": "east_dawn",
+    "priority": 6,
+    "trigger": {
+      "direction.east.gte": 3
+    },
+    "interpretation_tr": "Doğu yönü baskın: başlangıç, şafak ve doğuş enerjisi. Her gün yeni bir doğuş; şimdi o kapı aralanmış.",
+    "interpretation_en": "East direction dominant: beginning, dawn and birth energy. Every day a new birth; that door is now ajar."
+  },
+  {
+    "id": "south_fire_action",
+    "priority": 6,
+    "trigger": {
+      "direction.south.gte": 3
+    },
+    "interpretation_tr": "Güney yönü baskın: aksiyon, tutku ve dışa vuran güç. Güneyin ateşi yaktığı şeyi seç; çünkü o her şeyi yakar.",
+    "interpretation_en": "South direction dominant: action, passion and outward power. Choose what the southern fire ignites; because it burns everything."
+  },
+  {
+    "id": "center_axis",
+    "priority": 7,
+    "trigger": {
+      "direction.center.gte": 3
+    },
+    "interpretation_tr": "Merkez baskın: tüm yönlerin odağında durmak. Denge noktası burada; hem başlangıç hem bitiş, hem içeri hem dışarı.",
+    "interpretation_en": "Center dominant: standing at the focus of all directions. Balance point here; both beginning and end, both inward and outward."
+  },
+  {
+    "id": "dimension_1_power",
+    "priority": 7,
+    "trigger": {
+      "dimension.1.gte": 3
+    },
+    "interpretation_tr": "1. boyut üçlü aktif: yeni başlangıçların, ilk nefesin ve saf yaratımın enerjisi güçlü. Tohum toprağa düşüyor.",
+    "interpretation_en": "1st dimension triply active: energy of new beginnings, first breath and pure creation strong. Seed is falling to earth."
+  },
+  {
+    "id": "dimension_7_mystery",
+    "priority": 8,
+    "trigger": {
+      "dimension.7.gte": 2
+    },
+    "interpretation_tr": "7. boyut aktif: mistik kapı açık, sembollerin sembolleri çözümleniyor. Rüyalar, tesadüfler ve senkronisite artmış olabilir.",
+    "interpretation_en": "7th dimension active: mystical door open, symbols of symbols being decoded. Dreams, coincidences and synchronicity may have increased."
+  },
+  {
+    "id": "dimension_9_completion",
+    "priority": 8,
+    "trigger": {
+      "dimension.9.gte": 2
+    },
+    "interpretation_tr": "9. boyut aktif: tamamlanma ve geçiş eşiği. Bir dönemin sonu, bir başka dönemin doğuşu. Bu geçişi bilinçli kıl.",
+    "interpretation_en": "9th dimension active: threshold of completion and transition. End of one era, birth of another. Make this transition conscious."
+  },
+  {
+    "id": "dimension_5_freedom",
+    "priority": 6,
+    "trigger": {
+      "dimension.5.gte": 2
+    },
+    "interpretation_tr": "5. boyut aktif: özgürlük, değişim ve maceranın boyutu. Sabit yapılar sallanıyor; bu bir yıkım değil, genişleme çağrısı.",
+    "interpretation_en": "5th dimension active: dimension of freedom, change and adventure. Fixed structures shaking; this is not a collapse, but a call to expansion."
+  },
+  {
+    "id": "high_priestess_intuition",
+    "priority": 7,
+    "trigger": {
+      "symbol.includes": [
+        "perthro",
+        "high_priestess"
+      ]
+    },
+    "interpretation_tr": "Kahin kapısı açık: Perthro (kaderin kâsesi) ve Yüksek Rahibe birlikte — gizli bilginin kapısı aralanmış. Ne bilinirse, henüz söylenmemiştir.",
+    "interpretation_en": "Oracle door open: Perthro (cup of fate) and High Priestess together — door to hidden knowledge has opened. What is known has not yet been spoken."
+  },
+  {
+    "id": "stagnation_warning",
+    "priority": 8,
+    "trigger": {
+      "intensity.low.gte": 2,
+      "polarity.yin.gte": 3
+    },
+    "interpretation_tr": "Hareketsizlik uyarısı: düşük yoğunluk ve yin baskın aynı anda. Dinlenme derinleşe bilir ama uzun süreli duraklama enerjinin donmasına yol açar.",
+    "interpretation_en": "Stagnation warning: low intensity and yin dominant simultaneously. Rest can deepen but prolonged pause leads to freezing of energy."
+  },
+  {
+    "id": "burn_warning",
+    "priority": 9,
+    "trigger": {
+      "element.fire.gte": 4,
+      "intensity.high.gte": 4
+    },
+    "interpretation_tr": "Tükenme riski yüksek: ateş ve yüksek yoğunluk aşırı baskın. Bu enerjiyle harika şeyler yaratılabilir ama ritme, uykuya ve dinlenmeye dikkat.",
+    "interpretation_en": "Burnout risk high: fire and high intensity overly dominant. Great things can be created with this energy but pay attention to rhythm, sleep and rest."
+  },
+  {
+    "id": "isolation_warning",
+    "priority": 8,
+    "trigger": {
+      "archetype.seeker.gte": 2,
+      "element.water.gte": 2,
+      "direction.up.gte": 2
+    },
+    "interpretation_tr": "İzolasyon uyarısı: arayıcı, su ve yukarı yönü birlikte aktif. İçe dönüş sağlıklı olabilir ama insan bağlantısını beslemek unutulmamalı.",
+    "interpretation_en": "Isolation warning: seeker, water and upward direction active together. Turning inward can be healthy but nourishing human connection must not be forgotten."
+  },
+  {
+    "id": "control_warning",
+    "priority": 7,
+    "trigger": {
+      "archetype.ruler.gte": 3,
+      "polarity.yang.gte": 4
+    },
+    "interpretation_tr": "Kontrol aşımı: hükümdar ve yang enerjisi birlikte çok baskın. Bırakmayı öğrenmek şu an en büyük güç eylemdir.",
+    "interpretation_en": "Control excess: ruler and yang energy both very dominant. Learning to let go is the greatest act of power right now."
+  },
+  {
+    "id": "numbness_warning",
+    "priority": 9,
+    "trigger": {
+      "element.water.eq": 0,
+      "polarity.yin.eq": 0
+    },
+    "interpretation_tr": "Duygusal uyuşukluk uyarısı: su yok, yin yok. Hisleri bastırmak kısa vadede koruyucu ama uzun vadede hastalık yaratır. Hissetmeye izin ver.",
+    "interpretation_en": "Emotional numbness warning: no water, no yin. Suppressing feelings is protective short-term but creates illness long-term. Allow yourself to feel."
+  },
+  {
+    "id": "teacher_gift",
+    "priority": 7,
+    "trigger": {
+      "archetype.sage.gte": 2,
+      "element.air.gte": 2
+    },
+    "interpretation_tr": "Öğretmen armağanı: bilge ve hava birlikte aktif. Bilgeliği paylaşmak, öğretmek ve aktarmak bu dönemin doğal çağrısı.",
+    "interpretation_en": "Teacher gift: sage and air active together. Sharing wisdom, teaching and transmitting is the natural calling of this period."
+  },
+  {
+    "id": "artist_gift",
+    "priority": 7,
+    "trigger": {
+      "archetype.creator.gte": 2,
+      "archetype.lover.gte": 1
+    },
+    "interpretation_tr": "Sanatçı armağanı: yaratıcı ve âşık arketipleri birlikte. Güzellik yaratmak, ifade etmek ve paylaşmak — ruhun özgün sesi bu dönem güçlü.",
+    "interpretation_en": "Artist gift: creator and lover archetypes together. Creating beauty, expressing and sharing — the soul's authentic voice is strong this period."
+  },
+  {
+    "id": "leader_gift",
+    "priority": 7,
+    "trigger": {
+      "archetype.warrior.gte": 2,
+      "archetype.ruler.gte": 1,
+      "polarity.yang.gte": 3
+    },
+    "interpretation_tr": "Lider armağanı: savaşçı, hükümdar ve yang güç birlikte aktif. Başkaları için yol göstermek ve açmak bu dönemin anlamlı çağrısı.",
+    "interpretation_en": "Leader gift: warrior, ruler and yang force active together. Showing the way and opening it for others is the meaningful calling of this period."
+  },
+  {
+    "id": "seer_gift",
+    "priority": 7,
+    "trigger": {
+      "chakra.third_eye.gte": 2,
+      "element.water.gte": 2
+    },
+    "interpretation_tr": "Kahin armağanı: üçüncü göz ve su enerjisi birlikte güçlü. Görme kapasitesi açık; sembolleri ve örüntüleri fark etme derin.",
+    "interpretation_en": "Seer gift: third eye and water energy strong together. Capacity to see is open; noticing symbols and patterns is deep."
+  },
+  {
+    "id": "spring_energy",
+    "priority": 5,
+    "trigger": {
+      "polarity.yang.gte": 3,
+      "direction.east.gte": 2
+    },
+    "interpretation_tr": "Bahar enerjisi aktif: yang ve doğu yönü bir arada — yeni doğuş, filizlenme ve ilk adımlar için olgunlaşmış zemin.",
+    "interpretation_en": "Spring energy active: yang and east direction together — ripe ground for new birth, sprouting and first steps."
+  },
+  {
+    "id": "winter_energy",
+    "priority": 5,
+    "trigger": {
+      "polarity.yin.gte": 3,
+      "direction.north.gte": 2
+    },
+    "interpretation_tr": "Kış enerjisi aktif: yin ve kuzey bir arada — içe çekilme, tohumlanma ve görünmez büyüme döneminin derinliği.",
+    "interpretation_en": "Winter energy active: yin and north together — depth of the period of withdrawal, seeding and invisible growth."
+  },
+  {
+    "id": "summer_peak",
+    "priority": 5,
+    "trigger": {
+      "element.fire.gte": 2,
+      "direction.south.gte": 2,
+      "intensity.high.gte": 2
+    },
+    "interpretation_tr": "Yaz zirvesi enerjisi: ateş, güney ve yüksek yoğunluk birlikte — tam çiçeklenme ve manifestasyon zirvesi.",
+    "interpretation_en": "Summer peak energy: fire, south and high intensity together — full bloom and manifestation peak."
+  },
+  {
+    "id": "full_activation",
+    "priority": 10,
+    "trigger": {
+      "element.fire.gte": 1,
+      "element.water.gte": 1,
+      "element.air.gte": 1,
+      "element.earth.gte": 1,
+      "chakra.root.gte": 1,
+      "chakra.crown.gte": 1
+    },
+    "interpretation_tr": "Tam sistem aktivasyonu: dört element ve en temel iki çakra (kök-taç ekseni) aktif. Bu nadir bir bütünlük anıdır; sistemlerin sesi aynı anda duyulabiliyor.",
+    "interpretation_en": "Full system activation: four elements and the two foundational chakras (root-crown axis) active. This is a rare moment of wholeness; the voice of all systems can be heard simultaneously."
+  },
+  {
+    "id": "cosmic_axis",
+    "priority": 9,
+    "trigger": {
+      "direction.up.gte": 1,
+      "direction.down.gte": 1,
+      "direction.center.gte": 1
+    },
+    "interpretation_tr": "Kozmik eksen aktif: yukarı, aşağı ve merkez aynı anda aktif. Kök ve taç, gök ve yer arasındaki yaşayan köprüsün.",
+    "interpretation_en": "Cosmic axis active: up, down and center active simultaneously. You are the living bridge between root and crown, earth and sky."
+  },
+  {
+    "id": "triple_justice",
+    "priority": 8,
+    "trigger": {
+      "symbol.includes": ["tiwaz", "justice", "duir"]
+    },
+    "interpretation_tr": "Üçlü adalet: Tiwaz (kuzey kutup yıldızı adaleti), Adalet (kozmosu dengeleyen terazi) ve Duir (meşe — yasa koruyucusu) bir arada. Karar anındasın; hangisini seçersen evren onu mühürler.",
+    "interpretation_en": "Triple justice: Tiwaz (polaris justice), Justice (the cosmic scales) and Duir (oak — guardian of law) aligned. You are at a moment of decision; whichever you choose, the universe seals it."
+  }
+]

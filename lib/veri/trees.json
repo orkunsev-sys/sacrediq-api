@@ -1,0 +1,392 @@
+[
+  {
+    "code": "beith",
+    "ogham_symbol": "ᚁ",
+    "tree_en": "Birch",
+    "tree_tr": "Huş Ağacı",
+    "tree_latin": "Betula pendula",
+    "element": "air",
+    "chakra": "crown",
+    "archetype": "innocent",
+    "season": "deep_winter",
+    "deity": "Brigid",
+    "ritual_use": "Arınma, yeni başlangıç ritüelleri; gelin odası süpürgeleri için dal kullanımı",
+    "meaning_literal": {
+      "en": "Birch, new beginnings, purification",
+      "tr": "Huş ağacı, yeni başlangıçlar, arınma"
+    },
+    "meaning_psychological": {
+      "en": "The courage to leave the old behind and step into new chapters without the weight of past regret",
+      "tr": "Geçmiş pişmanlıkların yükü olmadan eski olanı bırakıp yeni sayfalara adım atma cesareti"
+    },
+    "meaning_mystical": {
+      "en": "First tree of the Ogham — the pioneer spirit that opens space for all others to flourish",
+      "tr": "Ogham'ın ilk ağacı — diğerlerinin gelişmesi için alan açan öncü ruh"
+    },
+    "meaning_shadow": {
+      "en": "Endless new beginnings with no follow-through; perpetual restlessness",
+      "tr": "Hiçbiri tamamlanmayan sonsuz yeni başlangıçlar; sürekli huzursuzluk"
+    },
+    "ogham_letter_value": 1
+  },
+  {
+    "code": "luis",
+    "ogham_symbol": "ᚂ",
+    "tree_en": "Rowan",
+    "tree_tr": "Üvez",
+    "tree_latin": "Sorbus aucuparia",
+    "element": "fire",
+    "chakra": "solar_plexus",
+    "archetype": "warrior",
+    "season": "late_winter",
+    "deity": "Brigid",
+    "ritual_use": "Eşik ve kapı koruması, kötü büyülerden korunma, kehanet çalışmaları",
+    "meaning_literal": {
+      "en": "Rowan, protection, quickening",
+      "tr": "Üvez, koruma, canlanma"
+    },
+    "meaning_psychological": {
+      "en": "The inner sentinel who protects your values and boundaries from external manipulation or inner doubt",
+      "tr": "Dış manipülasyon ya da iç şüpheden değerlerinizi ve sınırlarınızı koruyan içsel nöbetçi"
+    },
+    "meaning_mystical": {
+      "en": "Sacred fire of early spring; Brigid's tree that guards the threshold between dark and light",
+      "tr": "Erken ilkbaharın kutsal ateşi; karanlık ile ışık arasındaki eşiği koruyan Brigid'in ağacı"
+    },
+    "meaning_shadow": {
+      "en": "Over-protection becoming control; fear disguised as vigilance",
+      "tr": "Aşırı koruma kontrole dönüşmesi; teyakkuz kılığına bürünmüş korku"
+    },
+    "ogham_letter_value": 2
+  },
+  {
+    "code": "nion",
+    "ogham_symbol": "ᚅ",
+    "tree_en": "Ash",
+    "tree_tr": "Dişbudak",
+    "tree_latin": "Fraxinus excelsior",
+    "element": "water",
+    "chakra": "sacral",
+    "archetype": "seeker",
+    "season": "early_spring",
+    "deity": "Lugh",
+    "ritual_use": "Kozmik bağlantı, şamanlık yolculukları, yazgı ipleri çalışması",
+    "meaning_literal": {
+      "en": "Ash, world tree, connection between realms",
+      "tr": "Dişbudak, dünya ağacı, âlemler arası bağlantı"
+    },
+    "meaning_psychological": {
+      "en": "The ability to hold paradox — seeing both the personal and the universal simultaneously",
+      "tr": "Paradoksu tutabilme gücü — hem kişiseli hem de evrenseli aynı anda görme"
+    },
+    "meaning_mystical": {
+      "en": "The Celtic world-axis, cousin to Yggdrasil; the cosmic spine connecting sky, earth, and underworld",
+      "tr": "Yggdrasil'in kuzeni Celtic dünya ekseni; gökyüzü, yeryüzü ve yeraltını bağlayan kozmik omurga"
+    },
+    "meaning_shadow": {
+      "en": "Scattered between too many realms; losing the thread back to ordinary life",
+      "tr": "Çok fazla âlem arasına dağılmak; sıradan yaşama dönen ipliği kaybetmek"
+    },
+    "ogham_letter_value": 5
+  },
+  {
+    "code": "fearn",
+    "ogham_symbol": "ᚃ",
+    "tree_en": "Alder",
+    "tree_tr": "Kızılağaç",
+    "tree_latin": "Alnus glutinosa",
+    "element": "fire",
+    "chakra": "solar_plexus",
+    "archetype": "warrior",
+    "season": "early_spring",
+    "deity": "Bran",
+    "ritual_use": "Güç kazanımı, köprü inşası, kıyı koruması; su ortamında çürümeye dayanıklılık",
+    "meaning_literal": {
+      "en": "Alder, shield, courage at the threshold",
+      "tr": "Kızılağaç, kalkan, eşikte cesaret"
+    },
+    "meaning_psychological": {
+      "en": "The capacity to stand at the boundary between worlds and act — to be the bridge without losing yourself",
+      "tr": "Dünyalar arasındaki sınırda durup harekete geçme kapasitesi — kendinizi kaybetmeden köprü olmak"
+    },
+    "meaning_mystical": {
+      "en": "Bran's oracular head; the courage of the ancestor-guide who leads without fear of death",
+      "tr": "Bran'ın kehanet söyleyen başı; ölüm korkusu olmadan yol gösteren ata rehberinin cesareti"
+    },
+    "meaning_shadow": {
+      "en": "Reckless courage, martyrdom complex, dying for others' battles",
+      "tr": "Pervasız cesaret, şehitlik kompleksi, başkalarının savaşları için ölmek"
+    },
+    "ogham_letter_value": 3
+  },
+  {
+    "code": "sail",
+    "ogham_symbol": "ᚄ",
+    "tree_en": "Willow",
+    "tree_tr": "Söğüt",
+    "tree_latin": "Salix alba",
+    "element": "water",
+    "chakra": "sacral",
+    "archetype": "healer",
+    "season": "spring",
+    "deity": "Ceridwen",
+    "ritual_use": "Yas tutma, şifa, rüya çalışması, ay büyüsü; kehanet için söğüt dalları",
+    "meaning_literal": {
+      "en": "Willow, moon, intuition, flow",
+      "tr": "Söğüt, ay, sezgi, akış"
+    },
+    "meaning_psychological": {
+      "en": "Surrendering to the natural flow of emotion rather than fighting the current; grief as purification",
+      "tr": "Akıntıya karşı savaşmak yerine duygunun doğal akışına teslim olmak; arınma olarak yas"
+    },
+    "meaning_mystical": {
+      "en": "Ceridwen's cauldron of inspiration; the lunar cycles that govern unconscious tides",
+      "tr": "Ceridwen'in ilham kazanı; bilinçdışı gelgitleri yöneten ay döngüleri"
+    },
+    "meaning_shadow": {
+      "en": "Drowning in feeling; manipulative emotional currents; unresolved grief",
+      "tr": "Duyguda boğulmak; manipülatif duygusal akımlar; çözümlenmemiş yas"
+    },
+    "ogham_letter_value": 4
+  },
+  {
+    "code": "huath",
+    "ogham_symbol": "ᚆ",
+    "tree_en": "Hawthorn",
+    "tree_tr": "Akdiken/Alıç",
+    "tree_latin": "Crataegus monogyna",
+    "element": "fire",
+    "chakra": "heart",
+    "archetype": "caregiver",
+    "season": "late_spring",
+    "deity": "The Cailleach",
+    "ritual_use": "Eşik ritüelleri, Beltane süslemesi, peri kapısı koruması; kalp şifası",
+    "meaning_literal": {
+      "en": "Hawthorn, sacred thorn, cleansing before transformation",
+      "tr": "Akdiken, kutsal diken, dönüşüm öncesi arınma"
+    },
+    "meaning_psychological": {
+      "en": "The liminal space before a great change; necessary waiting that prepares the heart for new love",
+      "tr": "Büyük bir değişim öncesindeki ara alan; kalbi yeni sevgiye hazırlayan zorunlu bekleme"
+    },
+    "meaning_mystical": {
+      "en": "Faery threshold guardian; the sacred Beltane tree whose blossoms open the veil between worlds",
+      "tr": "Peri eşiği koruyucusu; çiçekleri dünyalar arasındaki perdeyi aralayan kutsal Beltane ağacı"
+    },
+    "meaning_shadow": {
+      "en": "Prolonged stasis, fear of vulnerability, armoring the heart with thorns indefinitely",
+      "tr": "Uzayan durgunluk, savunmasızlık korkusu, kalbi sonsuza dek dikenlerle zırha büründürmek"
+    },
+    "ogham_letter_value": 6
+  },
+  {
+    "code": "duir",
+    "ogham_symbol": "ᚇ",
+    "tree_en": "Oak",
+    "tree_tr": "Meşe",
+    "tree_latin": "Quercus robur",
+    "element": "fire",
+    "chakra": "root",
+    "archetype": "ruler",
+    "season": "midsummer",
+    "deity": "The Dagda",
+    "ritual_use": "Mistletoe toplama, Litha ateşi, tapınak direği, kral meşe ritüeli",
+    "meaning_literal": {
+      "en": "Oak, strength, sovereignty, the king of trees",
+      "tr": "Meşe, güç, egemenlik, ağaçların kralı"
+    },
+    "meaning_psychological": {
+      "en": "Embodied authority that comes from deep roots — leading by being, not by forcing",
+      "tr": "Derin köklerden gelen cisimleşmiş otorite — zorlamadan var olarak liderlik etmek"
+    },
+    "meaning_mystical": {
+      "en": "The Dagda's sacred tree; the lightning-struck oak that channels divine power to earth",
+      "tr": "Dagda'nın kutsal ağacı; yıldırım çarpmış meşe ilahi gücü yeryüzüne iletir"
+    },
+    "meaning_shadow": {
+      "en": "Stubborn refusal to bend; pride that becomes brittle; tyrannical use of strength",
+      "tr": "Eğilmeye inatçı ret; kırılgan hale gelen gurur; gücün despotça kullanımı"
+    },
+    "ogham_letter_value": 7
+  },
+  {
+    "code": "tinne",
+    "ogham_symbol": "ᚈ",
+    "tree_en": "Holly",
+    "tree_tr": "Çoban Püskülü",
+    "tree_latin": "Ilex aquifolium",
+    "element": "fire",
+    "chakra": "solar_plexus",
+    "archetype": "warrior",
+    "season": "high_summer",
+    "deity": "Lugh",
+    "ritual_use": "Güneş tepe ritüelleri, demir işleme koruması, savaşçı kutsama",
+    "meaning_literal": {
+      "en": "Holly, battle, swift action in darkness",
+      "tr": "Çoban püskülü, savaş, karanlıkta hızlı eylem"
+    },
+    "meaning_psychological": {
+      "en": "Decisive action when clarity is needed; the leader who acts before hesitation costs more than action",
+      "tr": "Berraklık gerektiğinde kararlı eylem; tereddütün eylemden fazlaya mal olmasından önce harekete geçen lider"
+    },
+    "meaning_mystical": {
+      "en": "The Holly King who rules when the sun turns south; champion of the waning light",
+      "tr": "Güneş güneye döndüğünde hüküm süren Holly Kral; azalan ışığın şampiyonu"
+    },
+    "meaning_shadow": {
+      "en": "Reckless aggression, acting before thinking, combativeness without cause",
+      "tr": "Pervasız saldırganlık, düşünmeden hareket etmek, nedensiz kavgacılık"
+    },
+    "ogham_letter_value": 8
+  },
+  {
+    "code": "coll",
+    "ogham_symbol": "ᚉ",
+    "tree_en": "Hazel",
+    "tree_tr": "Fındık",
+    "tree_latin": "Corylus avellana",
+    "element": "air",
+    "chakra": "third_eye",
+    "archetype": "sage",
+    "season": "late_summer",
+    "deity": "Ogma",
+    "ritual_use": "Kehanet çubukları, şiir ve ilham ritüelleri, divination; bilgelik fındığı yeme törenleri",
+    "meaning_literal": {
+      "en": "Hazel, wisdom, inspiration, hidden knowledge",
+      "tr": "Fındık, bilgelik, ilham, gizli bilgi"
+    },
+    "meaning_psychological": {
+      "en": "The moment when accumulated learning crystallizes into intuitive wisdom that bypasses rational thought",
+      "tr": "Birikmiş öğrenimin ussal düşünceyi atlayan sezgisel bilgeliğe dönüştüğü an"
+    },
+    "meaning_mystical": {
+      "en": "The Salmon of Wisdom that ate the nine hazelnuts — direct transmission of cosmic knowing",
+      "tr": "Dokuz fındığı yiyen Bilgelik Somonu — kozmik bilginin doğrudan aktarımı"
+    },
+    "meaning_shadow": {
+      "en": "Intellectual arrogance, head-knowledge without heart-wisdom, hoarding of insight",
+      "tr": "Entelektüel kibir, kalp bilgeliği olmadan kafa bilgisi, içgörünün biriktirilmesi"
+    },
+    "ogham_letter_value": 9
+  },
+  {
+    "code": "muin",
+    "ogham_symbol": "ᚋ",
+    "tree_en": "Vine / Bramble",
+    "tree_tr": "Asma / Böğürtlen",
+    "tree_latin": "Vitis vinifera / Rubus fruticosus",
+    "element": "water",
+    "chakra": "throat",
+    "archetype": "jester",
+    "season": "early_autumn",
+    "deity": "The Dagda",
+    "ritual_use": "Hasat kutlamaları, ilham şiiri, kehanet sarhoşluğu, dönüşüm suyunun kutsanması",
+    "meaning_literal": {
+      "en": "Vine, harvest, joy, sacred intoxication",
+      "tr": "Asma, hasat, sevinç, kutsal coşku"
+    },
+    "meaning_psychological": {
+      "en": "Releasing rational control to access deeper truth; the creative loosening that allows authentic expression",
+      "tr": "Daha derin gerçeğe ulaşmak için ussal kontrolü bırakmak; özgün ifadeye izin veren yaratıcı gevşeme"
+    },
+    "meaning_mystical": {
+      "en": "The prophetic wine of Manannán; bardic ecstasy that opens the inner eye",
+      "tr": "Manannán'ın kehanet şarabı; iç gözü açan bardiclik heyecanı"
+    },
+    "meaning_shadow": {
+      "en": "Escapism, addiction, losing oneself in revelry, truth-numbing intoxication",
+      "tr": "Kaçışçılık, bağımlılık, şenlikte kaybolmak, gerçeği uyuşturan sarhoşluk"
+    },
+    "ogham_letter_value": 11
+  },
+  {
+    "code": "gort",
+    "ogham_symbol": "ᚌ",
+    "tree_en": "Ivy",
+    "tree_tr": "Sarmaşık",
+    "tree_latin": "Hedera helix",
+    "element": "earth",
+    "chakra": "root",
+    "archetype": "seeker",
+    "season": "mid_autumn",
+    "deity": "Arianrhod",
+    "ritual_use": "Labirent meditasyonu, spiraller çizme, karanlık dönemi geçiş ritüelleri",
+    "meaning_literal": {
+      "en": "Ivy, tenacity, spiral growth, labyrinth",
+      "tr": "Sarmaşık, azim, spiral büyüme, labirent"
+    },
+    "meaning_psychological": {
+      "en": "Unwavering persistence toward the goal through winding paths; growth through apparent obstacles",
+      "tr": "Dolambaçlı yollardan hedefe sarsılmaz ısrar; görünürdeki engeller aracılığıyla büyüme"
+    },
+    "meaning_mystical": {
+      "en": "Arianrhod's silver wheel; the eternal spiral of soul-evolution winding through all lives",
+      "tr": "Arianrhod'un gümüş çarkı; tüm hayatlar boyunca sarılan ruh-evriminin sonsuz spirali"
+    },
+    "meaning_shadow": {
+      "en": "Clinging, parasitic attachment, inability to release what no longer serves",
+      "tr": "Yapışma, parazitik bağlanma, artık işe yaramayanı bırakamama"
+    },
+    "ogham_letter_value": 12
+  },
+  {
+    "code": "ngetal",
+    "ogham_symbol": "ᚍ",
+    "tree_en": "Reed / Dwarf Elder",
+    "tree_tr": "Kamış / Saz",
+    "tree_latin": "Phragmites australis",
+    "element": "water",
+    "chakra": "throat",
+    "archetype": "healer",
+    "season": "late_autumn",
+    "deity": "Dian Cécht",
+    "ritual_use": "Şifa büyüleri, nefes çalışması, müzik ve ses şifası, sazdan müzik aleti yapımı",
+    "meaning_literal": {
+      "en": "Reed, speech, healing, inner harmony",
+      "tr": "Kamış, söz, şifa, iç uyum"
+    },
+    "meaning_psychological": {
+      "en": "Finding your authentic voice in the hollow space of vulnerability — the wound that becomes the flute",
+      "tr": "Savunmasızlığın boş alanında özgün sesinizi bulmak — flüte dönüşen yara"
+    },
+    "meaning_mystical": {
+      "en": "The healer's breath moving through the hollow — illness as a doorway to deeper wholeness",
+      "tr": "Iyileştiricinin nefesi boşluktan geçer — hastalık daha derin bütünlüğe açılan kapı"
+    },
+    "meaning_shadow": {
+      "en": "Using words as weapons, toxic speech, silencing one's authentic voice from fear",
+      "tr": "Sözcükleri silah olarak kullanmak, zehirli konuşma, korkudan özgün sesi susturmak"
+    },
+    "ogham_letter_value": 13
+  },
+  {
+    "code": "ruis",
+    "ogham_symbol": "ᚏ",
+    "tree_en": "Elder",
+    "tree_tr": "Mürver",
+    "tree_latin": "Sambucus nigra",
+    "element": "water",
+    "chakra": "crown",
+    "archetype": "magician",
+    "season": "deep_autumn",
+    "deity": "The Cailleach",
+    "ritual_use": "Ata ritüelleri, Samhain seyri, ölüm ve yeniden doğuş geçiş törenleri",
+    "meaning_literal": {
+      "en": "Elder, endings, the threshold, ancestral wisdom",
+      "tr": "Mürver, bitişler, eşik, ata bilgeliği"
+    },
+    "meaning_psychological": {
+      "en": "Dignified completion — the wisdom that knows when a chapter must end for the next to begin",
+      "tr": "Onurlu tamamlanma — bir sonrasının başlaması için bir bölümün ne zaman bitmesi gerektiğini bilen bilgelik"
+    },
+    "meaning_mystical": {
+      "en": "The Elder Mother who grants passage — the final keeper of the threshold before the dark begins",
+      "tr": "Geçişe izin veren Büyük Ana — karanlık başlamadan önce eşiğin son koruyucusu"
+    },
+    "meaning_shadow": {
+      "en": "Refusing to let go, lingering past one's time, clinging to power in autumn years",
+      "tr": "Bırakmayı reddetmek, zamanının ötesinde oyalanmak, sonbahar yıllarında güce yapışmak"
+    },
+    "ogham_letter_value": 15
+  }
+]

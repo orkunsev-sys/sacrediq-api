@@ -1,0 +1,55 @@
+{
+  "cakralar": [],
+  "hawkins_haritas": [
+    {
+      "kalibrasyon": 20,
+      "duygu": "Utanç",
+      "kategori": "Negatif"
+    },
+    {
+      "kalibrasyon": 30,
+      "duygu": "Suçluluk",
+      "kategori": "Negatif"
+    },
+    {
+      "kalibrasyon": 50,
+      "duygu": "İsteksizlik",
+      "kategori": "Negatif"
+    },
+    {
+      "kalibrasyon": 75,
+      "duygu": "Keder",
+      "kategori": "Negatif"
+    },
+    {
+      "kalibrasyon": 100,
+      "duygu": "Korku",
+      "kategori": "Negatif"
+    },
+    {
+      "kalibrasyon": 125,
+      "duygu": "İstek",
+      "kategori": "Negatif"
+    },
+    {
+      "kalibrasyon": 150,
+      "duygu": "Öfke",
+      "kategori": "Negatif"
+    },
+    {
+      "kalibrasyon": 175,
+      "duygu": "Gurur",
+      "kategori": "Negatif"
+    },
+    {
+      "kalibrasyon": 200,
+      "duygu": "Cesaret",
+      "kategori": "Pozitif"
+    },
+    {
+      "kalibrasyon": 250,
+      "duygu": "Yansızlık",
+      "kategori": "Pozitif"
+    }
+  ]
+}

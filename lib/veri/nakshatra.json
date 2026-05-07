@@ -1,0 +1,218 @@
+[
+  {
+    "no": 1, "ad": "Ashwini", "tr": "Hızlı Atlılar", "lord": "Ketu",
+    "baslangic": 0, "bitis": 13.333,
+    "sembol": "At başı", "tema": "Hızlı başlangıç, şifa, ivme",
+    "dogrultu": "Koç 0° – 13°20'",
+    "devata": "Ashwini Kumarlar (ikiz şifacı tanrılar)",
+    "aciklama": "Yenilenme, tıbbi şifa, hız, doğal sezgi, yolculuğa çıkış enerjisi."
+  },
+  {
+    "no": 2, "ad": "Bharani", "tr": "Taşıyıcı", "lord": "Venus",
+    "baslangic": 13.333, "bitis": 26.667,
+    "sembol": "Rahim/dölyatağı", "tema": "Doğum, ölüm, dönüşüm, yük taşıma",
+    "dogrultu": "Koç 13°20' – 26°40'",
+    "devata": "Yama (ölüm ve adalet tanrısı)",
+    "aciklama": "Yaşam-ölüm döngüsü, kısıtlama ve özgürleşme, sorumluluk taşıma."
+  },
+  {
+    "no": 3, "ad": "Krittika", "tr": "Kesici Bıçaklar", "lord": "Sun",
+    "baslangic": 26.667, "bitis": 40,
+    "sembol": "Alev, bıçak", "tema": "Keskinlik, arındırma, ateş, cesaret",
+    "dogrultu": "Koç 26°40' – Boğa 10°",
+    "devata": "Agni (ateş tanrısı)",
+    "aciklama": "Arındırıcı ateş, liderlik, yüksek ahlaki standartlar, yaratıcı güç."
+  },
+  {
+    "no": 4, "ad": "Rohini", "tr": "Kızıl Göz / Büyüyen", "lord": "Moon",
+    "baslangic": 40, "bitis": 53.333,
+    "sembol": "Çekici araç, lotus", "tema": "Büyüme, bereket, güzellik, aşk",
+    "dogrultu": "Boğa 10° – 23°20'",
+    "devata": "Brahma (yaratıcı ilke)",
+    "aciklama": "Bolluk, doğurganlık, sanata ilgi, çekici kişilik, maddi dünya zevkleri."
+  },
+  {
+    "no": 5, "ad": "Mrigashira", "tr": "Geyik Başı", "lord": "Mars",
+    "baslangic": 53.333, "bitis": 66.667,
+    "sembol": "Geyik başı", "tema": "Arama, araştırma, merak, yolculuk",
+    "dogrultu": "Boğa 23°20' – İkizler 6°40'",
+    "devata": "Soma/Chandra (Ay tanrısı)",
+    "aciklama": "Sürekli arayış, tatlı dil, gezgin ruh, anlık heyecanlar."
+  },
+  {
+    "no": 6, "ad": "Ardra", "tr": "Islak / Fırtına", "lord": "Rahu",
+    "baslangic": 66.667, "bitis": 80,
+    "sembol": "Gözyaşı, elmas", "tema": "Fırtına, yıkım, yenilenme, zeka",
+    "dogrultu": "İkizler 6°40' – 20°",
+    "devata": "Rudra (fırtına tanrısı)",
+    "aciklama": "Çalkantı ardından yenilenme, keskin zeka, analitik düşünce, radikal değişim."
+  },
+  {
+    "no": 7, "ad": "Punarvasu", "tr": "İki İyi Yıldız", "lord": "Jupiter",
+    "baslangic": 80, "bitis": 93.333,
+    "sembol": "Yay ve ok kuyruk tüyü", "tema": "Geri dönüş, yenilenme, iyimserlik",
+    "dogrultu": "İkizler 20° – Yengeç 3°20'",
+    "devata": "Aditi (sınırsızlığın annesi)",
+    "aciklama": "Kayıptan sonra toparlanma, esneklik, spiritüel büyüme, ev sevgisi."
+  },
+  {
+    "no": 8, "ad": "Pushya", "tr": "Besleyici", "lord": "Saturn",
+    "baslangic": 93.333, "bitis": 106.667,
+    "sembol": "Çiçek, daire, ok", "tema": "Beslenme, şefkat, güvenlik, gelişme",
+    "dogrultu": "Yengeç 3°20' – 16°40'",
+    "devata": "Brihaspati (Jupiter, bilgelik tanrısı)",
+    "aciklama": "En uğurlu nakshatralardan biri. Şefkat, sorumluluk, toplumu besleme."
+  },
+  {
+    "no": 9, "ad": "Ashlesha", "tr": "Kucaklayan", "lord": "Mercury",
+    "baslangic": 106.667, "bitis": 120,
+    "sembol": "Yılan kıvrımı", "tema": "Yılan enerjisi, hipnoz, derinlik, gizem",
+    "dogrultu": "Yengeç 16°40' – 30°",
+    "devata": "Nagas (yılan tanrıları)",
+    "aciklama": "Derin sezgi, manipülasyon potansiyeli, şifa güçleri, gizli bilgi."
+  },
+  {
+    "no": 10, "ad": "Magha", "tr": "Büyük / Güçlü", "lord": "Ketu",
+    "baslangic": 120, "bitis": 133.333,
+    "sembol": "Taht odası", "tema": "Ata ruhu, kraliyet, güç, miras",
+    "dogrultu": "Aslan 0° – 13°20'",
+    "devata": "Pitrs (ata ruhları)",
+    "aciklama": "Geçmiş atalarla bağlantı, kökler, otorite, doğal liderlik, asalet."
+  },
+  {
+    "no": 11, "ad": "Purva Phalguni", "tr": "Önceki Kavşak", "lord": "Venus",
+    "baslangic": 133.333, "bitis": 146.667,
+    "sembol": "Hamak, yatak", "tema": "Zevk, dinlenme, aşk, yaratıcılık",
+    "dogrultu": "Aslan 13°20' – 26°40'",
+    "devata": "Bhaga (şans ve aşk tanrısı)",
+    "aciklama": "Şans, ihsan, cinsellik, sanat, eğlence, rahatlama dönemleri."
+  },
+  {
+    "no": 12, "ad": "Uttara Phalguni", "tr": "Sonraki Kavşak", "lord": "Sun",
+    "baslangic": 146.667, "bitis": 160,
+    "sembol": "Yatak ayağı", "tema": "Hizmet, sözleşme, samimiyet, hiyerarşi",
+    "dogrultu": "Aslan 26°40' – Başak 10°",
+    "devata": "Aryaman (evlilik ve sözleşme tanrısı)",
+    "aciklama": "Sadık ilişkiler, toplumsal görev, liderlik, şifa."
+  },
+  {
+    "no": 13, "ad": "Hasta", "tr": "El", "lord": "Moon",
+    "baslangic": 160, "bitis": 173.333,
+    "sembol": "El (açık avuç)", "tema": "Beceri, zekâ, zanaat, stratejik el",
+    "dogrultu": "Başak 10° – 23°20'",
+    "devata": "Savitar (Güneş tanrısı — bereket yayıcı)",
+    "aciklama": "El işçiliği, pratik zeka, düzin, mizah, toplantılar."
+  },
+  {
+    "no": 14, "ad": "Chitra", "tr": "Parlak Yıldız", "lord": "Mars",
+    "baslangic": 173.333, "bitis": 186.667,
+    "sembol": "İnci, mücevher", "tema": "Güzellik, yaratıcılık, zanaatkârlık",
+    "dogrultu": "Başak 23°20' – Terazi 6°40'",
+    "devata": "Tvashtri/Vishwakarma (ilahi usta)",
+    "aciklama": "Estetik duyarlılık, ince işçilik, çekicilik, sanatsal güdü."
+  },
+  {
+    "no": 15, "ad": "Swati", "tr": "Kılıç", "lord": "Rahu",
+    "baslangic": 186.667, "bitis": 200,
+    "sembol": "Mercan, genç filiz", "tema": "Bağımsızlık, esneklik, rüzgar",
+    "dogrultu": "Terazi 6°40' – 20°",
+    "devata": "Vayu (rüzgar tanrısı)",
+    "aciklama": "Özgürlük tutkusu, ticaret yeteneği, esneklik, diplomatik doğa."
+  },
+  {
+    "no": 16, "ad": "Vishakha", "tr": "Çatallı Dal", "lord": "Jupiter",
+    "baslangic": 200, "bitis": 213.333,
+    "sembol": "Süslenmiş zafer kapısı", "tema": "Azim, hedef, kararlılık",
+    "dogrultu": "Terazi 20° – Akrep 3°20'",
+    "devata": "Indra & Agni (güç ve ateş)",
+    "aciklama": "Tek hedef odaklılık, nihai zafer, ilişkilerde yoğunluk."
+  },
+  {
+    "no": 17, "ad": "Anuradha", "tr": "Başarı Sonrası", "lord": "Saturn",
+    "baslangic": 213.333, "bitis": 226.667,
+    "sembol": "Nilüfer, davul", "tema": "Dostluk, saygı, spiritüel disiplin",
+    "dogrultu": "Akrep 3°20' – 16°40'",
+    "devata": "Mitra (arkadaşlık ve sözleşme tanrısı)",
+    "aciklama": "Sadık dostluklar, takım ruhu, örgütsel yetenek, spiritüel güç."
+  },
+  {
+    "no": 18, "ad": "Jyeshtha", "tr": "Kıdemli / Büyük", "lord": "Mercury",
+    "baslangic": 226.667, "bitis": 240,
+    "sembol": "Küpe, yuvarlak tılsım", "tema": "Koruyuculuk, liderlik, sırlı bilgi",
+    "dogrultu": "Akrep 16°40' – 30°",
+    "devata": "Indra (gök tanrısı)",
+    "aciklama": "Büyük kardeş arketipi, koruyucu güç, özgüven, gizli yetenekler."
+  },
+  {
+    "no": 19, "ad": "Mula", "tr": "Kök", "lord": "Ketu",
+    "baslangic": 240, "bitis": 253.333,
+    "sembol": "Bağlanmış kök, fil kancası", "tema": "Kök söküm, araştırma, özgürleşme",
+    "dogrultu": "Yay 0° – 13°20'",
+    "devata": "Nirriti (yıkım tanrıçası)",
+    "aciklama": "Köklere inme, radikal sorgulama, varoluşsal araştırma, büyük kırılmalar."
+  },
+  {
+    "no": 20, "ad": "Purva Ashadha", "tr": "Önceki Yenilmez", "lord": "Venus",
+    "baslangic": 253.333, "bitis": 266.667,
+    "sembol": "Fil dişi, yelpaze", "tema": "Güçlenme, enerji toplama, hazırlık",
+    "dogrultu": "Yay 13°20' – 26°40'",
+    "devata": "Apas (su tanrıçası)",
+    "aciklama": "İrade gücü, ikna kabiliyeti, savunma, başarıya hazırlık."
+  },
+  {
+    "no": 21, "ad": "Uttara Ashadha", "tr": "Sonraki Yenilmez", "lord": "Sun",
+    "baslangic": 266.667, "bitis": 280,
+    "sembol": "Filler kulağı", "tema": "Kesin zafer, yüksek ahlak, uzun vadeli başarı",
+    "dogrultu": "Yay 26°40' – Oğlak 10°",
+    "devata": "Vishvadevas (tüm tanrılar birlikte)",
+    "aciklama": "Uzun vadeli başarı, dürüstlük, toplumsal sorumluluk, kesin sonuç."
+  },
+  {
+    "no": 22, "ad": "Shravana", "tr": "İşitme", "lord": "Moon",
+    "baslangic": 280, "bitis": 293.333,
+    "sembol": "Kulak, üç ayak izi", "tema": "Dinleme, öğrenme, bağlantı, habercilik",
+    "dogrultu": "Oğlak 10° – 23°20'",
+    "devata": "Vishnu (koruyucu tanrı)",
+    "aciklama": "Dinleme yeteneği, öğrenme, haberleşme, bilge öğütler, haber taşıma."
+  },
+  {
+    "no": 23, "ad": "Dhanishtha", "tr": "En Zengin", "lord": "Mars",
+    "baslangic": 293.333, "bitis": 306.667,
+    "sembol": "Davul (mridanga)", "tema": "Ritim, müzik, zenginlik, adanma",
+    "dogrultu": "Oğlak 23°20' – Kova 6°40'",
+    "devata": "Ashtavasus (sekiz bolluk tanrısı)",
+    "aciklama": "Ritim duygusu, müzik yeteneği, grup çalışması, servet birikimi."
+  },
+  {
+    "no": 24, "ad": "Shatabhisha", "tr": "Yüz Şifacı", "lord": "Rahu",
+    "baslangic": 306.667, "bitis": 320,
+    "sembol": "Boş daire, bin yıldız", "tema": "Şifa, gizem, yalnızlık, araştırma",
+    "dogrultu": "Kova 6°40' – 20°",
+    "devata": "Varuna (okyanuslar ve kozmik düzen tanrısı)",
+    "aciklama": "Medikal yetenek, sır saklama, uzak görüş, mucizevî iyileşmeler."
+  },
+  {
+    "no": 25, "ad": "Purva Bhadrapada", "tr": "Önceki Uğurlu Adım", "lord": "Jupiter",
+    "baslangic": 320, "bitis": 333.333,
+    "sembol": "İki ön yatak ayağı, kılıç", "tema": "Arınma, ikili doğa, ateşli dönüşüm",
+    "dogrultu": "Kova 20° – Balık 3°20'",
+    "devata": "Aja Ekapad (tek ayaklı keçi tanrısı)",
+    "aciklama": "Spiritüel ateş, ikili kişilik, öfke ardından arınma, gizli güçler."
+  },
+  {
+    "no": 26, "ad": "Uttara Bhadrapada", "tr": "Sonraki Uğurlu Adım", "lord": "Saturn",
+    "baslangic": 333.333, "bitis": 346.667,
+    "sembol": "İki arka yatak ayağı, yılan", "tema": "Bilgelik, derinlik, sakinlik, spiritüel güç",
+    "dogrultu": "Balık 3°20' – 16°40'",
+    "devata": "Ahir Budhnya (derin okyanus yılanı)",
+    "aciklama": "Derin bilgelik, sakinlik, spiritüel olgunluk, evrensel sevgi, derinlik."
+  },
+  {
+    "no": 27, "ad": "Revati", "tr": "Zengin / Besleyici", "lord": "Mercury",
+    "baslangic": 346.667, "bitis": 360,
+    "sembol": "Balık, tambur", "tema": "Yolculuğun sonu, bereket, koruyuculuk",
+    "dogrultu": "Balık 16°40' – 30°",
+    "devata": "Pushan (sürü koruyucu tanrı)",
+    "aciklama": "Döngünün tamamlanması, koruyucu güç, spiritüel zenginlik, rehberlik."
+  }
+]

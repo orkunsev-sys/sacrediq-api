@@ -1,0 +1,234 @@
+{
+  "a": {
+    "harf_ivrit": "א",
+    "isim": "Aleph",
+    "deger": 1,
+    "sefirot": "Keter",
+    "anlam": "Aleph, sessiz nefes — İlahi'nin madde dünyasına ilk dokunuşunun harfidir. Varlığın saf potansiyeli, henüz şekillenmemiş ama tüm şekilleri içinde barındıran bir kapıyı temsil eder. Bir ile hiçin buluşma noktasıdır.",
+    "mistik": "Kabbala'da Aleph, Ein Sof'un (sonsuzun) soluğundan doğan ilk titreşimdir. Sayı değeri 1 olmakla birlikte, aynı zamanda 'ilk' anlamına da gelir — her şeyin çıktığı köktür."
+  },
+  "e": {
+    "harf_ivrit": "א",
+    "isim": "Aleph",
+    "deger": 1,
+    "sefirot": "Keter",
+    "anlam": "Aleph, sessiz nefes — İlahi'nin madde dünyasına ilk dokunuşunun harfidir. Varlığın saf potansiyeli, henüz şekillenmemiş ama tüm şekilleri içinde barındıran bir kapıyı temsil eder. Bir ile hiçin buluşma noktasıdır.",
+    "mistik": "Kabbala'da Aleph, Ein Sof'un (sonsuzun) soluğundan doğan ilk titreşimdir. Sayı değeri 1 olmakla birlikte, aynı zamanda 'ilk' anlamına da gelir — her şeyin çıktığı köktür."
+  },
+  "b": {
+    "harf_ivrit": "ב",
+    "isim": "Bet",
+    "deger": 2,
+    "sefirot": "Chokhmah",
+    "anlam": "Bet, 'ev' anlamına gelir ve yaratılışın ilk kapısıdır. İki'nin enerjisiyle dualiteyi, yansımayı ve tezahürün başlangıcını simgeler. Ruh ile madde arasındaki ilk köprüdür.",
+    "mistik": "Tevrat'ın ilk harfi Bet'tir — 'Bereshit' (başlangıçta) sözcüğünü açar. Chokhmah (İlahi Bilgelik) ile ilişkilendirilen bu harf, tüm yaratılışın mimarı konumundadır."
+  },
+  "g": {
+    "harf_ivrit": "ג",
+    "isim": "Gimel",
+    "deger": 3,
+    "sefirot": "Binah",
+    "anlam": "Gimel, 'deve' anlamına gelir; çölde yol katen, suyu taşıyan, sabır ve dayanıklılık içinde yürüyen varlıktır. Verme ve alma döngüsünü, cömertlik enerjisini temsil eder.",
+    "mistik": "Gimel, Daleth ile birlikte ele alındığında zengin ile fakir arasındaki ilişkiyi sembolize eder. Kabbala'da hizmet etme yoluyla ruhsal gelişimi simgeler; iyiliğin bir kapı olduğunu hatırlatır."
+  },
+  "ğ": {
+    "harf_ivrit": "ג",
+    "isim": "Gimel",
+    "deger": 3,
+    "sefirot": "Binah",
+    "anlam": "Gimel, 'deve' anlamına gelir; çölde yol katen, suyu taşıyan, sabır ve dayanıklılık içinde yürüyen varlıktır. Verme ve alma döngüsünü, cömertlik enerjisini temsil eder.",
+    "mistik": "Gimel, Daleth ile birlikte ele alındığında zengin ile fakir arasındaki ilişkiyi sembolize eder. Kabbala'da hizmet etme yoluyla ruhsal gelişimi simgeler; iyiliğin bir kapı olduğunu hatırlatır."
+  },
+  "d": {
+    "harf_ivrit": "ד",
+    "isim": "Dalet",
+    "deger": 4,
+    "sefirot": "Chesed",
+    "anlam": "Dalet, 'kapı' anlamına gelir. Bir kapı hem dışarıdan içeriye geçişi hem de içeriden dışarıya geçişi mümkün kılar. Dalet, alçakgönüllülük ve yoksullukla; ama aynı zamanda geçişle ve açık olmakla ilgilidir.",
+    "mistik": "Kabbalistik gelenekte Dalet, kendini boşaltmayı simgeler; ego sınırlarının erimesiyle ruhsal zenginliğin akabileceğini öğretir. Dört sayısı yeryüzündeki istikrarı da çağrıştırır."
+  },
+  "h": {
+    "harf_ivrit": "ה",
+    "isim": "He",
+    "deger": 5,
+    "sefirot": "Gevurah",
+    "anlam": "He, İlahi'nin nefesidir — Tanrı'nın adındaki (יהוה) iki He, ilahi enerjinin dünyadaki yansımasını temsil eder. Varoluşun açılımını ve ilahi irade ile insan iradesi arasındaki diyalogu simgeler.",
+    "mistik": "Kabbala'da He, iki kez Tanrı'nın adında görünür: biri yüksek Şekina'yı, diğeri aşağı Şekina'yı temsil eder. Beş sayısı beş duyuyu ve maddi dünyaya bağlılığı çağrıştırır."
+  },
+  "v": {
+    "harf_ivrit": "ו",
+    "isim": "Vav",
+    "deger": 6,
+    "sefirot": "Tiferet",
+    "anlam": "Vav, 'çivi' ya da 'bağ' anlamına gelir; yukarı ile aşağıyı, göksel ile yeri birleştiren dikey bir köprüdür. Altı sayısı denge ve mükemmeliyeti simgeler; Hayat Ağacı'nın merkezine işaret eder.",
+    "mistik": "Vav, Tetragrammaton'daki (YHVH) üçüncü harftir ve Tiferet Sefirot'uyla bağlantılıdır. İnsanlığın ilahi ile yeryüzü arasındaki birleştirici rolünü sembolize eder."
+  },
+  "w": {
+    "harf_ivrit": "ו",
+    "isim": "Vav",
+    "deger": 6,
+    "sefirot": "Tiferet",
+    "anlam": "Vav, 'çivi' ya da 'bağ' anlamına gelir; yukarı ile aşağıyı, göksel ile yeri birleştiren dikey bir köprüdür. Altı sayısı denge ve mükemmeliyeti simgeler; Hayat Ağacı'nın merkezine işaret eder.",
+    "mistik": "Vav, Tetragrammaton'daki (YHVH) üçüncü harftir ve Tiferet Sefirot'uyla bağlantılıdır. İnsanlığın ilahi ile yeryüzü arasındaki birleştirici rolünü sembolize eder."
+  },
+  "z": {
+    "harf_ivrit": "ז",
+    "isim": "Zayin",
+    "deger": 7,
+    "sefirot": "Netzach",
+    "anlam": "Zayin, 'kılıç' ya da 'silah' anlamına gelir; ama savaş silahından çok ruhsal ayrım yeteneğini, algıyı ve bilinci simgeler. Yedinin kutsallığıyla Şabat'ı ve dinlenme döngüsünü temsil eder.",
+    "mistik": "Kabbala'da Zayin, maddi aldatmacayı kesen manevi kılıçtır. Yedi Sefirot'un altındaki gizli düzene işaret eder; gerçek ile yanılsama arasında ayrım yapma gücü verir."
+  },
+  "ç": {
+    "harf_ivrit": "ח",
+    "isim": "Chet",
+    "deger": 8,
+    "sefirot": "Hod",
+    "anlam": "Chet, 'çit' ya da 'sınır' anlamına gelir; kutsal alanı koruyan bir sınırın sembolüdür. Sekiz sayısı sonsuzluk ve döngüselliği (∞) temsil eder; tüm engellerden geçişi simgeler.",
+    "mistik": "Kabbala'da Chet, güçlü bir yaşam enerjisi olan 'Chai' (חי) sözcüğünün ilk harfidir. Sekiz, yedi günlük yaratılışın ötesine geçer — sonsuzluğun kapısını aralar."
+  },
+  "t": {
+    "harf_ivrit": "ט",
+    "isim": "Tet",
+    "deger": 9,
+    "sefirot": "Yesod",
+    "anlam": "Tet, 'yılan' ya da 'çamur kabı' anlamına gelir; içinde saklı iyiyi, gizlenmiş potansiyeli temsil eder. Dokuz sayısı tamamlanma ve dönüşümün eşiğidir.",
+    "mistik": "Kabbala'da Tet, iyiliğin gizlendiği ilk harftir; Bereşit'te 'tov' (iyi) sözcüğünde görünür. Dönüşümcü güç taşır — sıradan şeylerin içindeki ilahi iyiyi keşfetmeyi öğretir."
+  },
+  "y": {
+    "harf_ivrit": "י",
+    "isim": "Yod",
+    "deger": 10,
+    "sefirot": "Chokhmah",
+    "anlam": "Yod, tüm İbrani harflerinin en küçüğüdür; ama aynı zamanda en güçlüsüdür. Saf ilahi ışığın, yaratıcı ilkenin özü olan bir noktadan tüm alfabenin fışkırmasını temsil eder.",
+    "mistik": "Kabbala'da Yod, tüm harflerin içinde gizlidir — her harf Yod'dan yapılır. Tanrı'nın sağ elini sembolize eder; on sayısıyla Sefirot'un bütünlüğüne atıfta bulunur."
+  },
+  "k": {
+    "harf_ivrit": "כ",
+    "isim": "Kaf",
+    "deger": 20,
+    "sefirot": "Chesed",
+    "anlam": "Kaf, 'avuç' anlamına gelir; tutmak, içermek ve cömertçe vermek için açılmış bir el. Yirmi sayısı anlama gücünü ve zihinsel kapasiteyi simgeler.",
+    "mistik": "Kabbala'da Kaf, taçlanmış güç ile alçakgönüllü hizmetin birleşimini temsil eder. Avuç içinin şekli, hem koruyan hem de özgür bırakan sevgi enerjisini çağrıştırır."
+  },
+  "c": {
+    "harf_ivrit": "כ",
+    "isim": "Kaf",
+    "deger": 20,
+    "sefirot": "Chesed",
+    "anlam": "Kaf, 'avuç' anlamına gelir; tutmak, içermek ve cömertçe vermek için açılmış bir el. Yirmi sayısı anlama gücünü ve zihinsel kapasiteyi simgeler.",
+    "mistik": "Kabbala'da Kaf, taçlanmış güç ile alçakgönüllü hizmetin birleşimini temsil eder. Avuç içinin şekli, hem koruyan hem de özgür bırakan sevgi enerjisini çağrıştırır."
+  },
+  "l": {
+    "harf_ivrit": "ל",
+    "isim": "Lamed",
+    "deger": 30,
+    "sefirot": "Tiferet",
+    "anlam": "Lamed, 'öğretmek' ve 'itmek' anlamlarına gelir; tüm harflerin en uzunu olan Lamed göklere uzanır. Öğrenme, öğretme ve ruhsal özlem enerjisini taşır.",
+    "mistik": "Kabbala'da Lamed, kalbin gizli arzusunu temsil eder; ruhun ilahi kaynağına dönme özlemini simgeler. Otuz sayısı ruhsal öğretimin derinliğine işaret eder."
+  },
+  "m": {
+    "harf_ivrit": "מ",
+    "isim": "Mem",
+    "deger": 40,
+    "sefirot": "Binah",
+    "anlam": "Mem, 'su' anlamına gelir; dalgalı, akışkan, her şeyi kapsayan ve hem hayat veren hem de yutan büyük suların sembolüdür. Kırk sayısı dönüşümü, arınmayı temsil eder.",
+    "mistik": "Kabbala'da Mem, bilinçdışının derinliklerini ve Binah'ın (İlahi Ana) sularını temsil eder. Kapalı Mem (ם) gizliliği, açık Mem (מ) vahyi simgeler — sırlar ve açıklamalar arasındaki dengeyi öğretir."
+  },
+  "n": {
+    "harf_ivrit": "נ",
+    "isim": "Nun",
+    "deger": 50,
+    "sefirot": "Netzach",
+    "anlam": "Nun, 'balık' ya da 'torun' anlamına gelir; derinliklerde yüzen, görünmez ama canlı varoluşun sembolüdür. Elli sayısı özgürlüğü ve kurtuluşu temsil eder.",
+    "mistik": "Kabbala'da Nun, ruhun geçici ölümden geçişini sembolize eder; dönüşüm yoluyla daha yüksek bir varoluşa uyanışı simgeler. Jubile yılının (50. yıl) özgürlük enerjisini taşır."
+  },
+  "s": {
+    "harf_ivrit": "ס",
+    "isim": "Samech",
+    "deger": 60,
+    "sefirot": "Yesod",
+    "anlam": "Samech, 'destek' ve 'dayanak' anlamına gelir; döngüsel bir desteğin, taşıyıcı yapının sembolüdür. Altmış sayısı temel ve güvenlik enerjisini çağrıştırır.",
+    "mistik": "Kabbala'da Samech'in dairesel şekli, Tanrı'nın sonsuz desteğini ve koruyucu çevresini simgeler. Ruhun maddi dünyada sağlam durmasını sağlayan ilahi temeli temsil eder."
+  },
+  "ş": {
+    "harf_ivrit": "ס",
+    "isim": "Samech",
+    "deger": 60,
+    "sefirot": "Yesod",
+    "anlam": "Samech, 'destek' ve 'dayanak' anlamına gelir; döngüsel bir desteğin, taşıyıcı yapının sembolüdür. Altmış sayısı temel ve güvenlik enerjisini çağrıştırır.",
+    "mistik": "Kabbala'da Samech'in dairesel şekli, Tanrı'nın sonsuz desteğini ve koruyucu çevresini simgeler. Ruhun maddi dünyada sağlam durmasını sağlayan ilahi temeli temsil eder."
+  },
+  "o": {
+    "harf_ivrit": "ע",
+    "isim": "Ayin",
+    "deger": 70,
+    "sefirot": "Hod",
+    "anlam": "Ayin, 'göz' anlamına gelir; algının, görme biçiminin ve perspektifin harfidir. Yetmiş sayısı, Mısır'dan çıkışın yetmiş uzmanı gibi farklı bakış açılarını ve çoğulluğu simgeler.",
+    "mistik": "Kabbala'da Ayin, maddi dünyayı gerçek olarak gören 'dış göz' ile ruhsal gerçeği kavrayan 'iç göz' arasındaki seçimi temsil eder. Hangi gözle baktığımız, hangi gerçeği gördüğümüzü belirler."
+  },
+  "ö": {
+    "harf_ivrit": "ע",
+    "isim": "Ayin",
+    "deger": 70,
+    "sefirot": "Hod",
+    "anlam": "Ayin, 'göz' anlamına gelir; algının, görme biçiminin ve perspektifin harfidir. Yetmiş sayısı, Mısır'dan çıkışın yetmiş uzmanı gibi farklı bakış açılarını ve çoğulluğu simgeler.",
+    "mistik": "Kabbala'da Ayin, maddi dünyayı gerçek olarak gören 'dış göz' ile ruhsal gerçeği kavrayan 'iç göz' arasındaki seçimi temsil eder. Hangi gözle baktığımız, hangi gerçeği gördüğümüzü belirler."
+  },
+  "p": {
+    "harf_ivrit": "פ",
+    "isim": "Pe",
+    "deger": 80,
+    "sefirot": "Netzach",
+    "anlam": "Pe, 'ağız' anlamına gelir; söz, ifade ve yaratıcı konuşmanın sembolüdür. Tanrı'nın dünyayı sözle yarattığı gibi, her sözcük bir yaratım eylemidir.",
+    "mistik": "Kabbala'da Pe, yirmi iki harfin içinde en güçlü yaratıcı potansiyeli barındıranlardan biridir. 'Peh', ağzın içinde gizli bir 'Beth' (ev) taşır — sözcükler bilinçte ev kurar."
+  },
+  "f": {
+    "harf_ivrit": "פ",
+    "isim": "Pe",
+    "deger": 80,
+    "sefirot": "Netzach",
+    "anlam": "Pe, 'ağız' anlamına gelir; söz, ifade ve yaratıcı konuşmanın sembolüdür. Tanrı'nın dünyayı sözle yarattığı gibi, her sözcük bir yaratım eylemidir.",
+    "mistik": "Kabbala'da Pe, yirmi iki harfin içinde en güçlü yaratıcı potansiyeli barındıranlardan biridir. 'Peh', ağzın içinde gizli bir 'Beth' (ev) taşır — sözcükler bilinçte ev kurar."
+  },
+  "r": {
+    "harf_ivrit": "ר",
+    "isim": "Resh",
+    "deger": 200,
+    "sefirot": "Hod",
+    "anlam": "Resh, 'baş' anlamına gelir; liderlik, önderlik ve zihinsel güç enerjisini taşır. İki yüz sayısı büyük döngüleri ve kozmik bilince ait perspektifi simgeler.",
+    "mistik": "Kabbala'da Resh, hem Güneş hem de zihin kapısıyla ilişkilendirilir. Bilinç ışığının madde dünyasına yansımasını temsil eder; kendi hakikatinizin liderliğini üstlenmek anlamına gelir."
+  },
+  "u": {
+    "harf_ivrit": "ו",
+    "isim": "Vav",
+    "deger": 6,
+    "sefirot": "Tiferet",
+    "anlam": "Vav, 'çivi' ya da 'bağ' anlamına gelir; yukarı ile aşağıyı, göksel ile yeri birleştiren dikey bir köprüdür. Altı sayısı denge ve mükemmeliyeti simgeler.",
+    "mistik": "Vav, Tetragrammaton'daki üçüncü harftir; Tiferet'in (Güzellik) enerjisiyle bağlantılıdır. Birlik ve bütünlük arayışını temsil eder."
+  },
+  "ü": {
+    "harf_ivrit": "ו",
+    "isim": "Vav",
+    "deger": 6,
+    "sefirot": "Tiferet",
+    "anlam": "Vav, 'çivi' ya da 'bağ' anlamına gelir; yukarı ile aşağıyı, göksel ile yeri birleştiren dikey bir köprüdür. Altı sayısı denge ve mükemmeliyeti simgeler.",
+    "mistik": "Vav, Tetragrammaton'daki üçüncü harftir; Tiferet'in (Güzellik) enerjisiyle bağlantılıdır. Birlik ve bütünlük arayışını temsil eder."
+  },
+  "i": {
+    "harf_ivrit": "י",
+    "isim": "Yod",
+    "deger": 10,
+    "sefirot": "Chokhmah",
+    "anlam": "Yod, tüm İbrani harflerinin en küçüğüdür; ama aynı zamanda en güçlüsüdür. Saf ilahi ışığın yaratıcı özünü, bir noktadan tüm var oluşun fışkırmasını temsil eder.",
+    "mistik": "Kabbala'da Yod, tüm harflerin içinde gizlidir — her harf Yod'dan yapılır. Tanrı'nın yaratıcı parmağını sembolize eder; küçüğün büyüğü nasıl barındırdığını öğretir."
+  },
+  "ı": {
+    "harf_ivrit": "י",
+    "isim": "Yod",
+    "deger": 10,
+    "sefirot": "Chokhmah",
+    "anlam": "Yod, tüm İbrani harflerinin en küçüğüdür; ama aynı zamanda en güçlüsüdür. Saf ilahi ışığın yaratıcı özünü, bir noktadan tüm var oluşun fışkırmasını temsil eder.",
+    "mistik": "Kabbala'da Yod, tüm harflerin içinde gizlidir — her harf Yod'dan yapılır. Tanrı'nın yaratıcı parmağını sembolize eder; küçüğün büyüğü nasıl barındırdığını öğretir."
+  }
+}
