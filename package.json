@@ -1,14 +1,14 @@
 {
-  "name": "kadim-api",
+  "name": "sacrediq-api",
   "version": "1.0.0",
-  "description": "Kadim Hesap API — Ebced, Numeroloji, Rune, BaZi, Nakshatra ve daha fazlası",
+  "description": "SacredIQ API — Ebced, Numeroloji, Rune, BaZi, Nakshatra ve daha fazlası",
   "type": "module",
   "scripts": {
-    "dev": "vercel dev",
-    "lint": "node --check api/v1/ebced.js"
+    "start": "node server.js",
+    "dev": "node --watch server.js"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "vercel": "^32.0.0"
-  }
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {}
 }
